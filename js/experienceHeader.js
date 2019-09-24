@@ -59,7 +59,6 @@ class experienceHeaders extends HTMLElement {
                   </select>
                 </div>
               </div>
-              
             </div>
             <div class="book-now">
               <button class="btn-book">BOOK NOW</button>
