@@ -2,6 +2,14 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+.container {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  max-width: 992px;
+  padding: 0 25px;
+}
+
 .exper-header {
   position: relative;
   width: 100%;
@@ -10,8 +18,6 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-
 
 .check-in {
   position: absolute;
@@ -255,5 +261,289 @@
 .exp-traval ul li .star{
   
   margin-top: 20px;
+}
+
+/* Affiliations */
+
+.exp-affiliations .title{
+  font-size: 30px;
+  font-weight: bold;
+  padding: 50px 0;
+}
+
+.exp-affiliations .experience-logo .list-logo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  list-style: none;
+  margin-left: -25px; 
+  margin-right: -25px; 
+  margin-bottom: 70px;
+}
+
+.exp-affiliations .experience-logo .list-logo li{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.exp-affiliations .map-detail .address{
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.exp-affiliations .map-detail .map{
+  width: 100%;
+  height: 494px;
+  margin-bottom: 30px;
+}
+
+/* Nearby */
+
+.exp-nearby{
+  background-color: #EFEFEF;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.exp-nearby .title{
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.exp-nearby .nearby-hotels .row-hotels{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-left: -10px;
+}
+
+.exp-nearby .nearby-hotels .row-hotels .list-hotels{
+  -ms-flex: 0 0 33.33%;
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+
+.exp-nearby .nearby-hotels .row-hotels .list-hotels .box-hotels{
+  max-width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 40px;
+}
+
+.exp-nearby .nearby-hotels .row-hotels .list-hotels .box-hotels .detail-hotels{
+  position: relative;
+  max-width: 100%;
+  border: 1px solid #BEBEBE;
+}
+
+.exp-nearby .nearby-hotels .row-hotels .list-hotels .box-hotels .detail-hotels .img-hotels{
+  padding-bottom: 83.33%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.exp-nearby .nearby-hotels .row-hotels .list-hotels .box-hotels .detail-hotels .ways{
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  padding: 5px 10px;
+  color: #FFF;
+  font-size: 10px;
+  background-color: rgba(39, 39, 39, .9);
+  border-radius: 11px;
+}
+
+.exp-nearby .nearby-hotels .row-hotels .list-hotels .box-hotels .detail-hotels .name-hotels{
+  position: relative;
+  padding: 18px 25px;
+}
+
+.exp-nearby .nearby-hotels .row-hotels .list-hotels .box-hotels .detail-hotels .name-hotels .btn-book{
+  position: absolute;
+  top: -20px;
+  right: 20px;
+  background-color: #89C966;
+  border: 0px;
+  border-radius: 27px;
+  padding: 11px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+.exp-nearby .nearby-hotels .row-hotels .list-hotels .box-hotels .detail-hotels .name-hotels .name{
+  font-size: 18px;
+  font-weight: bold;
+  height: 80px;
+}
+
+.exp-nearby .nearby-hotels .row-hotels .list-hotels .box-hotels .detail-hotels .name-hotels .lating{
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: #BEBEBE;
+}
+
+/*  Offers */
+
+.exp-offers {
+  padding-top: 76px;
+}
+
+.exp-offers .title {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.exp-offers .slide{
+  padding-bottom: 120px;
+}
+
+.exp-offers .slide ul{
+  list-style: none;
+  padding: 40px 0;
+}
+
+.exp-offers .slide ul img{
+  width: 100%;
+}
+
+.exp-offers .slide .next-previous{
+  display: flex;
+  align-items: center;
+}
+
+.exp-offers .slide .next-previous .btn-next-previous{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+
+}
+
+.exp-offers .slide .next-previous .btn-next-previous button{
+  background-color: transparent;
+  border: 0px;
+}
+
+.exp-offers .slide .next-previous span{
+  width: 100%;
+  height: 1px;
+  background-color: #BEBEBE;
+}
+
+.exp-offers .experience {
+  padding-top: 30px;
+  padding-bottom: 107px;
+}
+
+.exp-offers .experience .row-experience{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -13px;
+  margin-right: -13px;
+}
+
+.exp-offers .experience .row-experience .list-ways{
+  -ms-flex: 0 0 33.33%;
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+
+.exp-offers .experience .row-experience .list-ways .box-ways{
+  max-width: 100%;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+.exp-offers .experience .row-experience .list-ways .box-ways .detail-ways .img-ways{
+  width: 100%;
+  padding-bottom: 74.5%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.exp-offers .experience .row-experience .list-ways .box-ways .detail-ways .name-ways{
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.exp-offers .stories {
+  padding-top: 30px;
+  padding-bottom: 107px;
+}
+
+.exp-offers .stories .row-stories{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin-left: -7px;
+  margin-right: -7px;
+}
+
+.exp-offers .stories .list-stories{
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.exp-offers .stories .list-stories .box-stories .detail-stories {
+  position: relative;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.exp-offers .stories .list-stories .box-stories .detail-stories .img-stories{
+  position: relative;
+  width: 100%;
+  padding-bottom: 45.5%;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.exp-offers .stories .list-stories .box-stories .detail-stories .img-stories .img-blur{
+  overflow: hidden;
+  position: absolute;
+  filter: blur(3px);
+  width: 100%;
+  padding-bottom: 45.5%;
+  background-size: cover;
+}
+
+.exp-offers .stories .list-stories .box-stories .detail-stories .text-stories{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(103,103,103,.5);
+}
+
+.exp-offers .stories .list-stories .box-stories .detail-stories .text-stories p{
+  text-align: center;
+  color: #FFF;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.exp-offers .stories .list-stories .box-stories .detail-stories .text-stories p span{
+  font-size: 12px;
+  font-weight: normal;
 }
 
