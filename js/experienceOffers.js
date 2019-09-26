@@ -150,6 +150,10 @@ class experienceOffers extends HTMLElement {
                 </div>
               </div>
             </div>
+
+            <div class="div-btn">
+              <a href="#" class="btn-see-all">See all</a>
+            </div>
           </div>
 
         </div>

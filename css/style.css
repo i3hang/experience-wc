@@ -214,6 +214,11 @@
   padding-bottom: 70px;
 }
 
+.exp-banner img{
+  width: 728px;
+  height: 90px;
+}
+
 
 /* WEB TRAVAL */
 
@@ -547,3 +552,134 @@
   font-weight: normal;
 }
 
+.exp-offers .div-btn{
+  padding-top: 40px;
+  text-align: center;
+}
+
+.exp-offers .div-btn .btn-see-all{
+  padding: 10px 38px;
+  color: #000;
+  font-size: 22px;
+  font-weight: bold;
+  border: 2px solid #000000;
+  border-radius: 35px;
+  text-decoration: none;
+}
+
+
+/* About */
+
+.exp-about {
+  padding-bottom: 100px;
+  display: flex;
+}
+
+.exp-about .map-about{
+  width: 35.41%;
+}
+
+.exp-about .about{
+  width: 64.59%;
+  padding-left: 7.33%;
+  padding-right: 20%;
+}
+
+.exp-about .about{
+  width: 64.59%;
+  padding-left: 7.33%;
+  padding-right: 20%;
+}
+
+.exp-about .about .title{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.exp-about .about .text-about p{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  color: #6E6E6E;
+}
+
+/* Contact Us */
+
+.exp-contact {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.exp-contact .list-contact{
+  display: flex;
+}
+
+.exp-contact .list-contact li{
+  display: flex;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.exp-contact .list-contact li .post-contact{
+  font-size: 20px;
+  color: #707070;
+  padding: 5px 17px;
+}
+
+/* Featured */
+
+.exp-featured .title{
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+  padding-bottom: 46px;
+}
+
+.exp-featured .img-featured .row-featured{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.exp-featured .img-featured .row-featured .list-featured{
+  -ms-flex: 0 0 16.66%;
+  flex: 0 0 16.66%;
+  max-width: 16.66%;
+}
+
+.exp-featured .img-featured .row-featured .list-featured .box-featured{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Footer */
+
+.exp-footer {
+  padding-top: 67px;
+  padding-bottom: 32px;
+}
+
+.exp-footer .detail-footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.exp-footer .detail-footer .reserved, .exp-footer .detail-footer .footer-link{
+  font-size: 12px;
+}
+
+.exp-footer .detail-footer .footer-link .links{
+  display: flex;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.exp-footer .detail-footer .footer-link .links li a{
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  color: #000;
+}
