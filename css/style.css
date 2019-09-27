@@ -175,17 +175,24 @@
 
 /* Navbar */
 
-.logo {
-  position: fixed;
-  top: 40px;
-  left: 40px;
-}
-
 .exper-navbar {
   display: flex;
   width: 100%;
   height: 166px;
-  justify-content: center
+  justify-content: center;
+  transition: all .3s;
+}
+
+.exper-navbar .logo {
+  position: fixed;
+  top: 40px;
+  left: 40px;
+  z-index: 11;
+}
+
+.exper-navbar .logo img{
+  width: 132px;
+  transition: all .3s;
 }
 
 .exper-navbar .list-menu {
@@ -212,6 +219,98 @@
 
 .exper-navbar .list-menu li a img{
   margin-bottom: 10px;
+}
+
+.exper-navbar .burger {
+  cursor: pointer;
+  margin-right: 60px;
+  display: none;
+}
+
+.exper-navbar .burger div{
+  width: 35px;
+  height: 3px;
+  background-color: #000;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.exper-navbar .burger .line1{
+  transition: all .5s;
+}
+
+.exper-navbar .burger .line2{
+  transition: all .2s;
+}
+
+.exper-navbar .burger .line3{
+  transition: all .5s;
+}
+
+.exper-navbar .burger.toggle .line1{
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.exper-navbar .burger.toggle .line2{
+  opacity: 0;
+}
+
+.exper-navbar .burger.toggle .line3{
+  transform: rotate(45deg) translate(-7px, -6px);
+}
+
+.exper-navbar.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #FFF;
+  height: 75px;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 10;
+}
+
+.exper-navbar.sticky .logo{
+  top: 16px;
+  left: 16px;
+}
+
+.exper-navbar.sticky .logo img{
+  width: 115px;
+}
+
+.exper-navbar.sticky .list-menu {
+  position: absolute;
+  top: 74px;
+  right: 0;
+  width: 267px;
+  background-color: #FFF;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  transform: translateX(100%);
+}
+
+.exper-navbar.sticky .list-menu.active {
+  transform: translateX(0%);
+}
+
+.exper-navbar.sticky .list-menu li{
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.exper-navbar.sticky .list-menu li img{
+  display: none;
+}
+
+.exper-navbar.sticky .burger {
+  display: block;
 }
 
 @media only screen and (max-width: 1280px) {
