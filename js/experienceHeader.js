@@ -26,7 +26,7 @@ class experienceHeaders extends HTMLElement {
                   <circle id="Ellipse_5" data-name="Ellipse 5" cx="3.909" cy="3.909" r="3.909" transform="matrix(0.987, -0.16, 0.16, 0.987, 3.934, 5.186)" fill="#fff"/>
                   <path id="Path_5" data-name="Path 5" d="M367.833,298.907a.219.219,0,0,1-.388,0l-2.05-3.951a5.753,5.753,0,0,1-1.949-.728l3.78,7.285a.466.466,0,0,0,.827,0l3.781-7.285a5.757,5.757,0,0,1-1.95.728Z" transform="translate(-359.22 -277.461)" fill="#fff"/>
                 </g>
-              </svg>
+              </svg>&nbsp;
               Dali, Yunnan, PR China
             </p>
           </div>
@@ -43,20 +43,26 @@ class experienceHeaders extends HTMLElement {
           <div class="box-check-in">
             <div class="form-check-in">
               <div class="row5">
-                <div class="form-select">
-                  <select>
-                    <option>1 Room</option>
-                  </select>
+                <div class="list-input-3">
+                  <div class="form-select">
+                    <select>
+                      <option>1 Room</option>
+                    </select>
+                  </div>
                 </div>
-                <div class="form-select">
-                  <select>
-                    <option>2 adults</option>
-                  </select>
+                <div class="list-input-3">
+                  <div class="form-select">
+                    <select>
+                      <option>2 adults</option>
+                    </select>
+                  </div>
                 </div>
-                <div class="form-select">
-                  <select>
-                    <option>No children</option>
-                  </select>
+                <div class="list-input-3">
+                  <div class="form-select">
+                    <select>
+                      <option>No children</option>
+                    </select>
+                  </div>
                 </div>
               </div>
             </div>

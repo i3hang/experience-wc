@@ -10,6 +10,8 @@
   padding: 0 25px;
 }
 
+/* Header */
+
 .exper-header {
   position: relative;
   width: 100%;
@@ -38,15 +40,19 @@
 .check-in > .title-exper-header > p:nth-child(1) {
   font-size: 35px;
   font-weight: bold;
+  padding-bottom: 15px;
 }
 
 .check-in > .title-exper-header > p:nth-child(2) {
+  display: flex;
+  align-items: center;
   font-size: 28px;
 }
 
 .check-in > .icon-pr {
-  justify-content: flex-end;
   display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
   width: 40%;
   color: #FFF;
 }
@@ -63,7 +69,7 @@
   width: 100%;
   height: 138px;
   margin-top: 33px;
-  background-color: rgba(248, 248, 248, .3);
+  background-color: rgba(248, 248, 248, .5);
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
@@ -75,14 +81,21 @@
 
 .check-in .box-check-in .form-check-in .row5 {
   display: flex;
+  margin-left: -5px;
+  margin-right: -5px;
 }
 
-.check-in .box-check-in .form-check-in .row5 .form-select { 
-  width: 33.33%;
+.check-in .box-check-in .form-check-in .row5 .list-input-3{
+  -ms-flex: 0 0 33.33%;
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+
+.check-in .box-check-in .form-check-in .row5 .list-input-3 .form-select { 
   padding: 0 5px;
 }
 
-.check-in .box-check-in .form-check-in .row5 .form-select select{ 
+.check-in .box-check-in .form-check-in .row5 .list-input-3 .form-select select{ 
   width: 100%;
   height: 45px;
   font-size: 15px;
@@ -102,6 +115,62 @@
   font-weight: bold;
   border: #89C966 1px solid;
   border-top-right-radius: 3px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .check-in {
+    max-width: 460px;
+  }
+
+  .check-in > .title-exper-header {
+    width: 60%;
+    color: #FFF;
+  }
+  
+  .check-in > .title-exper-header > p:nth-child(1) {
+    font-size: 27px;
+  }
+  
+  .check-in > .title-exper-header > p:nth-child(2) {
+    font-size: 16px;
+  }
+  
+  .check-in > .icon-pr > .list-icon {
+    text-align: center;
+    font-size: 7px;
+    font-weight: bold;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  
+  .check-in > .icon-pr > .list-icon img{
+    height: 30px;
+    padding-bottom: 5px;
+  }
+
+  .check-in .box-check-in {
+    height: 92px;
+    margin-top: 11px;
+  }
+
+  .check-in .box-check-in .form-check-in{ 
+    padding: 7px;
+    width: 78.52%;
+  }
+
+  .check-in .box-check-in .form-check-in .row5 .list-input-3 .form-select select{ 
+    height: 35px;
+    font-size: 12px;
+  }
+
+  .check-in .box-check-in .book-now{ 
+    width: 21.48%;
+    height: 100%;
+  }
+
+  .check-in .box-check-in .book-now .btn-book{
+    font-size: 12px;
+  }
 }
 
 /* Navbar */
@@ -145,6 +214,16 @@
   margin-bottom: 10px;
 }
 
+@media only screen and (max-width: 1280px) {
+  .exper-navbar .list-menu li{
+    font-size: 11px;
+  }
+
+  .exper-navbar .list-menu li img{
+    height: 25px;
+  }
+}
+
 /* IG */
 
 .exper-ig {
@@ -171,7 +250,6 @@
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%;
-  
 }
 
 .exper-ig .list-ig .small .box-img-ig{
@@ -203,6 +281,20 @@
   content: "";
   display: block;
   padding-bottom: 100%;
+}
+
+@media only screen and (max-width: 1280px) {
+  .exper-ig .list-ig .large {
+    width: 33.33%;
+  }
+
+  .exper-ig .list-ig .large:nth-last-child(1) {
+    display: none;
+  }
+
+  .exper-ig .list-ig .small {
+    width: 66.66%;
+  }
 }
 
 /* BANNER */
@@ -264,8 +356,31 @@
 }
 
 .exp-traval ul li .star{
-  
   margin-top: 20px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .exp-traval ul li{
+    padding: 0 30px;
+    text-align: center;
+  }
+  .exp-traval ul li a img{
+    width: 71.91px;
+  }
+
+  .exp-traval ul li a p{
+    font-size: 10px;
+  }
+
+  .exp-traval ul li .late{
+    font-size: 12px;
+    padding: 6px 8px;
+    margin-top: 23px;
+  }
+
+  .exp-traval ul li .star{
+    margin-top: 13px;
+  }
 }
 
 /* Affiliations */
@@ -273,7 +388,8 @@
 .exp-affiliations .title{
   font-size: 30px;
   font-weight: bold;
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .exp-affiliations .experience-logo .list-logo {
@@ -300,6 +416,33 @@
   width: 100%;
   height: 494px;
   margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .exp-affiliations .title{
+    font-size: 23px;
+    padding-bottom: 25px;
+  }
+
+  .exp-affiliations .experience-logo .list-logo {
+    margin-left: -18px; 
+    margin-right: -18px; 
+  }
+
+  .exp-affiliations .experience-logo .list-logo li{
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  
+  .exp-affiliations .map-detail .address{
+    font-size: 20px;
+    margin-bottom: 18px;
+  }
+  
+  .exp-affiliations .map-detail .map{
+    height: 423px;
+    margin-bottom: 26px;
+  }
 }
 
 /* Nearby */
@@ -395,6 +538,21 @@
   font-size: 15px;
   font-weight: bold;
   color: #BEBEBE;
+}
+
+@media only screen and (max-width: 1280px) {
+  .exp-nearby{
+    padding-top: 66px;
+    padding-bottom: 100px;
+  }
+  
+  .exp-nearby .title{
+    font-size: 23px;
+  }
+  
+  .exp-nearby .nearby-hotels .row-hotels .list-hotels .box-hotels .detail-hotels .name-hotels .btn-book{
+    background-color: #0058FF;
+  }
 }
 
 /*  Offers */
@@ -567,22 +725,30 @@
   text-decoration: none;
 }
 
+@media only screen and (max-width: 1280px) {
+  .exp-offers .title {
+    font-size: 23px;
+  }
+
+  .exp-offers .div-btn{
+    padding-top: 30px;
+  }
+  
+  .exp-offers .div-btn .btn-see-all{
+    font-size: 16px;
+  }
+}
+
 
 /* About */
 
 .exp-about {
-  padding-bottom: 100px;
   display: flex;
+  padding-bottom: 100px;
 }
 
 .exp-about .map-about{
   width: 35.41%;
-}
-
-.exp-about .about{
-  width: 64.59%;
-  padding-left: 7.33%;
-  padding-right: 20%;
 }
 
 .exp-about .about{
@@ -600,7 +766,33 @@
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 20px;
+  line-height: 25px;
   color: #6E6E6E;
+}
+
+@media only screen and (max-width: 1280px) { 
+  .exp-about {
+    display: flex;
+    padding-left:13.20%;
+    padding-right:13.20%;
+    padding-bottom: 100px;
+  }
+
+  .exp-about .about{
+    width: 64.59%;
+    padding-left: 7.33%;
+    padding-right: 0;
+  }
+
+  .exp-about .about .title{
+    font-size: 23px;
+    font-weight: bold;
+  }
+
+  .exp-about .about .text-about p{
+    font-size: 15px;
+    line-height: 20px;
+  }
 }
 
 /* Contact Us */
@@ -625,6 +817,23 @@
   font-size: 20px;
   color: #707070;
   padding: 5px 17px;
+}
+
+@media only screen and (max-width: 1280px) { 
+  .exp-contact .list-contact li{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .exp-contact .list-contact li img{
+    height: 18px;
+  }
+
+  .exp-contact .list-contact li .post-contact{
+    font-size: 12px;
+    color: #707070;
+    padding: 5px 10px;
+  }
 }
 
 /* Featured */
@@ -653,6 +862,26 @@
 .exp-featured .img-featured .row-featured .list-featured .box-featured{
   padding-left: 20px;
   padding-right: 20px;
+}
+
+@media only screen and (max-width: 1280px) { 
+  .exp-featured .title{
+    font-size: 23px;
+  }
+
+  .exp-featured .img-featured .row-featured{
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .exp-featured .img-featured .row-featured .list-featured .box-featured{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .exp-featured .img-featured .row-featured .list-featured .box-featured img{
+    width: 72.14px;
+  }
 }
 
 /* Footer */

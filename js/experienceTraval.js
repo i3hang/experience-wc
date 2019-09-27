@@ -15,7 +15,7 @@ class experienceTraval extends HTMLElement {
               <p>Booking.com</p>
             </a>
             <button class="late">
-              45
+              4.5
             </button>
             <div class="star">
               <svg xmlns="http://www.w3.org/2000/svg" width="11.806" height="11.228" viewBox="0 0 11.806 11.228">
@@ -41,7 +41,7 @@ class experienceTraval extends HTMLElement {
               <p>Tripadvisor</p>
             </a>
             <button class="late">
-              48
+              4.8
             </button>
             <div class="star">
               <svg xmlns="http://www.w3.org/2000/svg" width="11.806" height="11.228" viewBox="0 0 11.806 11.228">
@@ -67,7 +67,7 @@ class experienceTraval extends HTMLElement {
               <p>Expedia</p>
             </a>
             <button class="late">
-              45
+              4.5
             </button>
             <div class="star">
               <svg xmlns="http://www.w3.org/2000/svg" width="11.806" height="11.228" viewBox="0 0 11.806 11.228">
@@ -93,7 +93,7 @@ class experienceTraval extends HTMLElement {
               <p>CTrip</p>
             </a>
             <button class="late">
-              45
+              4.5
             </button>
             <div class="star">
               <svg xmlns="http://www.w3.org/2000/svg" width="11.806" height="11.228" viewBox="0 0 11.806 11.228">
@@ -119,7 +119,7 @@ class experienceTraval extends HTMLElement {
               <p>Agoda</p>
             </a>
             <button class="late">
-              45
+              4.5
             </button>
             <div class="star">
               <svg xmlns="http://www.w3.org/2000/svg" width="11.806" height="11.228" viewBox="0 0 11.806 11.228">
