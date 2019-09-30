@@ -1,8 +1,11 @@
+var slideIndex = 1;
 class experienceOffers extends HTMLElement {
 
   constructor() {
     super();
     this.template();
+    this.activeSlide(slideIndex);
+    this.plusSlides();
   }
 
   get banner() {
@@ -29,7 +32,10 @@ class experienceOffers extends HTMLElement {
 
           <div class="slide">
             <ul>
-              <li>
+              <li class="mySlides fade">
+                <img src="./images/slide-01.jpg" alt="slide-01">
+              </li>
+              <li class="mySlides fade">
                 <img src="./images/slide-01.jpg" alt="slide-01">
               </li>
             </ul>
@@ -159,6 +165,29 @@ class experienceOffers extends HTMLElement {
         </div>
       </div>
     `;
+  }
+
+  plusSlides() {
+    const previous = document.querySelector(".previous");
+    const next = document.querySelector(".next");
+    previous.addEventListener('click', () => {
+      this.activeSlide(slideIndex += -1)
+    });
+    next.addEventListener('click', () => {
+      this.activeSlide(slideIndex += 1)
+    });
+  }
+
+  activeSlide(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slides[slideIndex-1].style.display = "block";
   }
 
 }
