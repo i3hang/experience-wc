@@ -1,4 +1,4 @@
-class experienceNavbar extends HTMLElement {
+export class experienceNavbar extends HTMLElement {
 
   constructor() {
     super();
@@ -25,37 +25,37 @@ class experienceNavbar extends HTMLElement {
         <ul class="list-menu">
           <li>
             <a href="#">
-              <img src="./images/icon-menu-01.png">
+              <img src="./assets/images/icon-menu-01.png">
               <p>Snapshots</p>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="./images/icon-menu-02.png">
+              <img src="./assets/images/icon-menu-02.png">
               <p>Nearby</p>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="./images/icon-menu-03.png">
+              <img src="./assets/images/icon-menu-03.png">
               <p>Campaigns</p>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="./images/icon-menu-04.png">
+              <img src="./assets/images/icon-menu-04.png">
               <p>Ways to Experience</p>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="./images/icon-menu-05.png">
+              <img src="./assets/images/icon-menu-05.png">
               <p>Stories</p>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="./images/icon-menu-06.png">
+              <img src="./assets/images/icon-menu-06.png">
               <p>Contact</p>
             </a>
           </li>
@@ -93,5 +93,3 @@ class experienceNavbar extends HTMLElement {
   }
 
 }
-
-customElements.define('exp-navbar', experienceNavbar);

@@ -1,4 +1,4 @@
-class experienceAbout extends HTMLElement {
+export class experienceAbout extends HTMLElement {
 
   constructor() {
     super();
@@ -23,5 +23,3 @@ class experienceAbout extends HTMLElement {
   }
 
 }
-
-customElements.define('exp-about', experienceAbout);

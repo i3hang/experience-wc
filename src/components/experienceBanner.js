@@ -1,4 +1,4 @@
-class experienceBanner extends HTMLElement {
+export class experienceBanner extends HTMLElement {
 
   constructor() {
     super();
@@ -24,5 +24,3 @@ class experienceBanner extends HTMLElement {
   }
 
 }
-
-customElements.define('exp-banner', experienceBanner);

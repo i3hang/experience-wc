@@ -1,4 +1,4 @@
-class experienceTraval extends HTMLElement {
+export class experienceTraval extends HTMLElement {
 
   constructor() {
     super();
@@ -11,7 +11,7 @@ class experienceTraval extends HTMLElement {
         <ul>
           <li>
             <a href="#">
-              <img src="./images/logo-traval-01.png">
+              <img src="./assets/images/logo-traval-01.png">
               <p>Booking.com</p>
             </a>
             <button class="late">
@@ -37,7 +37,7 @@ class experienceTraval extends HTMLElement {
           </li>
           <li>
             <a href="#">
-              <img src="./images/logo-traval-02.png">
+              <img src="./assets/images/logo-traval-02.png">
               <p>Tripadvisor</p>
             </a>
             <button class="late">
@@ -63,7 +63,7 @@ class experienceTraval extends HTMLElement {
           </li>
           <li>
             <a href="#">
-              <img src="./images/logo-traval-03.png">
+              <img src="./assets/images/logo-traval-03.png">
               <p>Expedia</p>
             </a>
             <button class="late">
@@ -89,7 +89,7 @@ class experienceTraval extends HTMLElement {
           </li>
           <li>
             <a href="#">
-              <img src="./images/logo-traval-04.png">
+              <img src="./assets/images/logo-traval-04.png">
               <p>CTrip</p>
             </a>
             <button class="late">
@@ -115,7 +115,7 @@ class experienceTraval extends HTMLElement {
           </li>
           <li>
             <a href="#">
-              <img src="./images/logo-traval-05.png">
+              <img src="./assets/images/logo-traval-05.png">
               <p>Agoda</p>
             </a>
             <button class="late">
@@ -145,5 +145,3 @@ class experienceTraval extends HTMLElement {
   }
 
 }
-
-customElements.define('exp-traval', experienceTraval);

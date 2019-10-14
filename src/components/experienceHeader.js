@@ -1,4 +1,4 @@
-class experienceHeaders extends HTMLElement {
+export class experienceHeaders extends HTMLElement {
 
   constructor() {
     super();
@@ -32,11 +32,11 @@ class experienceHeaders extends HTMLElement {
           </div>
           <div class="icon-pr">
             <div class="list-icon">
-              <img src="./images/icon-02.png"><br>
+              <img src="./assets/images/icon-02.png"><br>
               PR China
             </div>
             <div class="list-icon">
-              <img src="./images/icon-01.png"><br>
+              <img src="./assets/images/icon-01.png"><br>
               Stay
             </div>
           </div>
@@ -76,5 +76,3 @@ class experienceHeaders extends HTMLElement {
   }
 
 }
-
-window.customElements.define('exp-header', experienceHeaders);

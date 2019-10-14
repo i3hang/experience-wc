@@ -1,4 +1,4 @@
-class experienceAffiliations extends HTMLElement {
+export class experienceAffiliations extends HTMLElement {
 
   constructor() {
     super();
@@ -15,12 +15,12 @@ class experienceAffiliations extends HTMLElement {
             <ul class="list-logo">
               <li>
                 <a href="#">
-                  <img src="./images/exper-logo-01.png" alt="exper-logo">
+                  <img src="./assets/images/exper-logo-01.png" alt="exper-logo">
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="./images/exper-logo-02.png" alt="exper-logo">
+                  <img src="./assets/images/exper-logo-02.png" alt="exper-logo">
                 </a>
               </li>
             </ul>
@@ -37,4 +37,3 @@ class experienceAffiliations extends HTMLElement {
 
 }
 
-customElements.define('exp-affiliations', experienceAffiliations);

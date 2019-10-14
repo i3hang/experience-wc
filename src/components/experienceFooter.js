@@ -1,4 +1,4 @@
-class experienceFooter extends HTMLElement {
+export class experienceFooter extends HTMLElement {
 
   constructor() {
     super();
@@ -26,5 +26,3 @@ class experienceFooter extends HTMLElement {
   }
 
 }
-
-customElements.define('exp-footer', experienceFooter);

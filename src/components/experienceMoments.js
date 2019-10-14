@@ -1,4 +1,4 @@
-class experienceMoments extends HTMLElement {
+export class experienceMoments extends HTMLElement {
 
   constructor() {
     super();

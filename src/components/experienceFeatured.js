@@ -1,4 +1,4 @@
-class experienceFeatured extends HTMLElement {
+export class experienceFeatured extends HTMLElement {
 
   constructor() {
     super();
@@ -21,26 +21,24 @@ class experienceFeatured extends HTMLElement {
               <div class="list-featured">
                 <div class="box-featured">
                   <a href="#">
-                    <img src="./images/featured-01.png" alt="img-featured" style="width: 100%">
+                    <img src="./assets/images/featured-01.png" alt="img-featured" style="width: 100%">
                   </a>
                 </div>
               </div>
               <div class="list-featured">
                 <div class="box-featured">
                   <a href="#">
-                    <img src="./images/featured-02.png" alt="img-featured" style="width: 100%">
+                    <img src="./assets/images/featured-02.png" alt="img-featured" style="width: 100%">
                   </a>
                 </div>
               </div>
             </div>
           </div>
 
-          <exp-banner banner="./images/banner-03.png"></exp-banner>
+          <exp-banner banner="./assets/images/banner-03.png"></exp-banner>
         </div>
       </div>
     `;
   }
 
 }
-
-customElements.define('exp-featured', experienceFeatured);

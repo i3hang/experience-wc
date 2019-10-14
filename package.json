@@ -1,0 +1,25 @@
+{
+  "name": "experience-wc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i3hang/experience-wc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i3hang/experience-wc/issues"
+  },
+  "homepage": "https://github.com/i3hang/experience-wc#readme",
+  "devDependencies": {
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9"
+  }
+}

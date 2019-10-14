@@ -1,4 +1,4 @@
-class experienceNearby extends HTMLElement {
+export class experienceNearby extends HTMLElement {
 
   constructor() {
     super();
@@ -35,7 +35,7 @@ class experienceNearby extends HTMLElement {
                       1.5 km away
                     </div>
                     
-                    <div class="img-hotels" style="background-image: url('./images/hotels-01.png')"></div>
+                    <div class="img-hotels" style="background-image: url('./assets/images/hotels-01.png')"></div>
                     <div class="name-hotels">
                       <button class="btn-book">
                         Book Now
@@ -59,7 +59,7 @@ class experienceNearby extends HTMLElement {
                       1.5 km away
                     </div>
                     
-                    <div class="img-hotels" style="background-image: url('./images/hotels-02.png')"></div>
+                    <div class="img-hotels" style="background-image: url('./assets/images/hotels-02.png')"></div>
                     <div class="name-hotels">
                       <button class="btn-book">
                         Book Now
@@ -83,7 +83,7 @@ class experienceNearby extends HTMLElement {
                       1.5 km away
                     </div>
                     
-                    <div class="img-hotels" style="background-image: url('./images/hotels-03.png')"></div>
+                    <div class="img-hotels" style="background-image: url('./assets/images/hotels-03.png')"></div>
                     <div class="name-hotels">
                       <button class="btn-book">
                         Book Now
@@ -107,7 +107,7 @@ class experienceNearby extends HTMLElement {
                       1.5 km away
                     </div>
                     
-                    <div class="img-hotels" style="background-image: url('./images/hotels-04.png')"></div>
+                    <div class="img-hotels" style="background-image: url('./assets/images/hotels-04.png')"></div>
                     <div class="name-hotels">
                       <button class="btn-book">
                         Book Now
@@ -131,7 +131,7 @@ class experienceNearby extends HTMLElement {
                       1.5 km away
                     </div>
                     
-                    <div class="img-hotels" style="background-image: url('./images/hotels-05.png')"></div>
+                    <div class="img-hotels" style="background-image: url('./assets/images/hotels-05.png')"></div>
                     <div class="name-hotels">
                       <button class="btn-book">
                         Book Now
@@ -155,7 +155,7 @@ class experienceNearby extends HTMLElement {
                       1.5 km away
                     </div>
                     
-                    <div class="img-hotels" style="background-image: url('./images/hotels-06.png')"></div>
+                    <div class="img-hotels" style="background-image: url('./assets/images/hotels-06.png')"></div>
                     <div class="name-hotels">
                       <p class="name">Anantara</p>
                     </div>
@@ -165,7 +165,7 @@ class experienceNearby extends HTMLElement {
             </div>
           </div>
 
-          <exp-banner banner="./images/banner-02.jpg"></exp-banner>
+          <exp-banner banner="./assets/images/banner-02.jpg"></exp-banner>
 
           <p class="title">
             <svg xmlns="http://www.w3.org/2000/svg" width="66.116" height="33.637" viewBox="0 0 66.116 33.637">
@@ -193,7 +193,7 @@ class experienceNearby extends HTMLElement {
                       1.5 km away
                     </div>
                     
-                    <div class="img-hotels" style="background-image: url('./images/hotels-01.jpg')"></div>
+                    <div class="img-hotels" style="background-image: url('./assets/images/hotels-01.jpg')"></div>
                     <div class="name-hotels">
                       <button class="btn-book">
                         Book Now
@@ -217,7 +217,7 @@ class experienceNearby extends HTMLElement {
                       1.5 km away
                     </div>
                     
-                    <div class="img-hotels" style="background-image: url('./images/hotels-02.jpg')"></div>
+                    <div class="img-hotels" style="background-image: url('./assets/images/hotels-02.jpg')"></div>
                     <div class="name-hotels">
                       <!--<button class="btn-book">
                         Book Now
@@ -241,7 +241,7 @@ class experienceNearby extends HTMLElement {
                       1.5 km away
                     </div>
                     
-                    <div class="img-hotels" style="background-image: url('./images/hotels-03.jpg')"></div>
+                    <div class="img-hotels" style="background-image: url('./assets/images/hotels-03.jpg')"></div>
                     <div class="name-hotels">
                       <!--<button class="btn-book">
                         Book Now
@@ -265,7 +265,7 @@ class experienceNearby extends HTMLElement {
                       1.5 km away
                     </div>
                     
-                    <div class="img-hotels" style="background-image: url('./images/hotels-04.jpg')"></div>
+                    <div class="img-hotels" style="background-image: url('./assets/images/hotels-04.jpg')"></div>
                     <div class="name-hotels">
                       <button class="btn-book">
                         Book Now
@@ -289,7 +289,7 @@ class experienceNearby extends HTMLElement {
                       1.5 km away
                     </div>
                     
-                    <div class="img-hotels" style="background-image: url('./images/hotels-05.jpg')"></div>
+                    <div class="img-hotels" style="background-image: url('./assets/images/hotels-05.jpg')"></div>
                     <div class="name-hotels">
                       <button class="btn-book">
                         Book Now
@@ -313,7 +313,7 @@ class experienceNearby extends HTMLElement {
                       1.5 km away
                     </div>
                     
-                    <div class="img-hotels" style="background-image: url('./images/hotels-06.jpg')"></div>
+                    <div class="img-hotels" style="background-image: url('./assets/images/hotels-06.jpg')"></div>
                     <div class="name-hotels">
                       <p class="name">Bangkok Post</p>
                     </div>
@@ -329,5 +329,3 @@ class experienceNearby extends HTMLElement {
   }
 
 }
-
-customElements.define('exp-nearby', experienceNearby);
