@@ -1,4 +1,5 @@
-
+import "../assets/css/reset.scss";
+import "../assets/css/style.scss";
 import {experienceHeaders} from "./components/experienceHeader";
 import {experienceNavbar} from "./components/experienceNavbar";
 import {experienceIG} from "./components/experienceIG";
