@@ -1,3 +1,11 @@
+import iconMenu01 from "../assets/images/icon-menu-01.png";
+import iconMenu02 from "../assets/images/icon-menu-02.png";
+import iconMenu03 from "../assets/images/icon-menu-03.png";
+import iconMenu04 from "../assets/images/icon-menu-04.png";
+import iconMenu05 from "../assets/images/icon-menu-05.png";
+import iconMenu06 from "../assets/images/icon-menu-06.png";
+import logo from "../assets/images/logo.png";
+
 export class experienceNavbar extends HTMLElement {
 
   constructor() {
@@ -20,42 +28,42 @@ export class experienceNavbar extends HTMLElement {
       
       <div id="navbar" class="exper-navbar">
         <div class="logo">
-          <img src="${this.logo}" alt="logo">
+          <img src="${logo}" alt="logo">
         </div>
         <ul class="list-menu">
           <li>
             <a href="#">
-              <img src="./assets/images/icon-menu-01.png">
+              <img src="${iconMenu01}">
               <p>Snapshots</p>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="./assets/images/icon-menu-02.png">
+              <img src="${iconMenu02}">
               <p>Nearby</p>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="./assets/images/icon-menu-03.png">
+              <img src="${iconMenu03}">
               <p>Campaigns</p>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="./assets/images/icon-menu-04.png">
+              <img src="${iconMenu04}">
               <p>Ways to Experience</p>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="./assets/images/icon-menu-05.png">
+              <img src="${iconMenu05}">
               <p>Stories</p>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="./assets/images/icon-menu-06.png">
+              <img src="${iconMenu06}">
               <p>Contact</p>
             </a>
           </li>

@@ -1,8 +1,8 @@
-import "../assets/css/reset.scss";
-import "../assets/css/style.scss";
+import "./assets/css/reset.scss";
+import "./assets/css/style.scss";
 import {experienceHeaders} from "./components/experienceHeader";
 import {experienceNavbar} from "./components/experienceNavbar";
-import {experienceIG} from "./components/experienceIG";
+import {experienceImagesBoard} from "./components/experienceImagesBoard";
 import {experienceBanner} from "./components/experienceBanner";
 import {experienceTraval} from "./components/experienceTraval";
 import {experienceAffiliations} from "./components/experienceAffiliations";
@@ -15,7 +15,7 @@ import {experienceFooter} from "./components/experienceFooter";
 
 customElements.define('exp-header', experienceHeaders);
 customElements.define('exp-navbar', experienceNavbar);
-customElements.define('exp-ig', experienceIG);
+customElements.define('exp-images-board', experienceImagesBoard);
 customElements.define('exp-banner', experienceBanner);
 customElements.define('exp-traval', experienceTraval);
 customElements.define('exp-affiliations', experienceAffiliations);

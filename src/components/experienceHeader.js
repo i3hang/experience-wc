@@ -1,3 +1,7 @@
+import background from "../assets/images/background-header.jpg";
+import icon01 from "../assets/images/icon-01.png";
+import icon02 from "../assets/images/icon-02.png";
+
 export class experienceHeaders extends HTMLElement {
 
   constructor() {
@@ -15,7 +19,7 @@ export class experienceHeaders extends HTMLElement {
 
   template() {
     this.innerHTML = `
-      <div class="exper-header" style="background-image: url(${this.background})">
+      <div class="exper-header" style="background-image: url(${background})">
         <div class="check-in">
           <div class="title-exper-header">
             <p>The Linden Centre</p>
@@ -32,11 +36,11 @@ export class experienceHeaders extends HTMLElement {
           </div>
           <div class="icon-pr">
             <div class="list-icon">
-              <img src="./assets/images/icon-02.png"><br>
+              <img src="${icon02}"><br>
               PR China
             </div>
             <div class="list-icon">
-              <img src="./assets/images/icon-01.png"><br>
+              <img src="${icon01}"><br>
               Stay
             </div>
           </div>

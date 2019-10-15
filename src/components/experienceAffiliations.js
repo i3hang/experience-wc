@@ -1,3 +1,5 @@
+import experLogo01 from "../assets/images/exper-logo-01.png";
+import experLogo02 from "../assets/images/exper-logo-02.png";
 export class experienceAffiliations extends HTMLElement {
 
   constructor() {
@@ -15,12 +17,12 @@ export class experienceAffiliations extends HTMLElement {
             <ul class="list-logo">
               <li>
                 <a href="#">
-                  <img src="./assets/images/exper-logo-01.png" alt="exper-logo">
+                  <img src="${experLogo01}" alt="exper-logo">
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="./assets/images/exper-logo-02.png" alt="exper-logo">
+                  <img src="${experLogo02}" alt="exper-logo">
                 </a>
               </li>
             </ul>
