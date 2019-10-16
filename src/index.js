@@ -1,5 +1,6 @@
 import "./assets/css/reset.scss";
 import "./assets/css/style.scss";
+
 import {experienceHeaders} from "./components/experienceHeader";
 import {experienceNavbar} from "./components/experienceNavbar";
 import {experienceImagesBoard} from "./components/experienceImagesBoard";
@@ -12,6 +13,8 @@ import {experienceAbout} from "./components/experienceAbout";
 import {experienceContact} from "./components/experienceContact";
 import {experienceFeatured} from "./components/experienceFeatured";
 import {experienceFooter} from "./components/experienceFooter";
+import {experienceWc} from "./components/experience";
+
 
 customElements.define('exp-header', experienceHeaders);
 customElements.define('exp-navbar', experienceNavbar);
@@ -25,3 +28,4 @@ customElements.define('exp-about', experienceAbout);
 customElements.define('exp-contact', experienceContact);
 customElements.define('exp-featured', experienceFeatured);
 customElements.define('exp-footer', experienceFooter);
+customElements.define('exp-wc', experienceWc);

@@ -1,3 +1,9 @@
+import logoTravel01 from '../assets/images/logo-traval-01.png';
+import logoTravel02 from '../assets/images/logo-traval-02.png';
+import logoTravel03 from '../assets/images/logo-traval-03.png';
+import logoTravel04 from '../assets/images/logo-traval-04.png';
+import logoTravel05 from '../assets/images/logo-traval-05.png';
+
 export class experienceTraval extends HTMLElement {
 
   constructor() {
@@ -11,7 +17,7 @@ export class experienceTraval extends HTMLElement {
         <ul>
           <li>
             <a href="#">
-              <img src="./assets/images/logo-traval-01.png">
+              <img src="${logoTravel01}">
               <p>Booking.com</p>
             </a>
             <button class="late">
@@ -37,7 +43,7 @@ export class experienceTraval extends HTMLElement {
           </li>
           <li>
             <a href="#">
-              <img src="./assets/images/logo-traval-02.png">
+              <img src="${logoTravel02}">
               <p>Tripadvisor</p>
             </a>
             <button class="late">
@@ -63,7 +69,7 @@ export class experienceTraval extends HTMLElement {
           </li>
           <li>
             <a href="#">
-              <img src="./assets/images/logo-traval-03.png">
+              <img src="${logoTravel03}">
               <p>Expedia</p>
             </a>
             <button class="late">
@@ -89,7 +95,7 @@ export class experienceTraval extends HTMLElement {
           </li>
           <li>
             <a href="#">
-              <img src="./assets/images/logo-traval-04.png">
+              <img src="${logoTravel04}">
               <p>CTrip</p>
             </a>
             <button class="late">
@@ -115,7 +121,7 @@ export class experienceTraval extends HTMLElement {
           </li>
           <li>
             <a href="#">
-              <img src="./assets/images/logo-traval-05.png">
+              <img src="${logoTravel05}">
               <p>Agoda</p>
             </a>
             <button class="late">

@@ -1,3 +1,9 @@
+import slider01 from "../assets/images/slide-01.jpg";
+import ways01 from "../assets/images/ways-01.jpg";
+import ways02 from "../assets/images/ways-02.jpg";
+import stories01 from "../assets/images/stories-01.jpg";
+import stories02 from "../assets/images/stories-02.jpg";
+
 var slideIndex = 1;
 export class experienceOffers extends HTMLElement {
 
@@ -33,10 +39,10 @@ export class experienceOffers extends HTMLElement {
           <div class="slide">
             <ul>
               <li class="mySlides fade">
-                <img src="./assets/images/slide-01.jpg" alt="slide-01">
+                <img src="${slider01}" alt="slide-01">
               </li>
               <li class="mySlides fade">
-                <img src="./assets/images/slide-01.jpg" alt="slide-01">
+                <img src="${slider01}" alt="slide-01">
               </li>
             </ul>
 
@@ -88,7 +94,7 @@ export class experienceOffers extends HTMLElement {
               <div class="list-ways">
                 <div class="box-ways">
                   <div class="detail-ways">
-                    <div class="img-ways" style="background-image:url('./assets/images/ways-01.jpg')"></div>
+                    <div class="img-ways" style="background-image:url('${ways01}')"></div>
                     <p class="name-ways">3-Day Dali, Shaxi & Lijiang Tour</p>
                   </div>
                 </div>
@@ -96,7 +102,7 @@ export class experienceOffers extends HTMLElement {
               <div class="list-ways">
                 <div class="box-ways">
                   <div class="detail-ways">
-                    <div class="img-ways" style="background-image:url('./assets/images/ways-02.jpg')"></div>
+                    <div class="img-ways" style="background-image:url('${ways02}')"></div>
                     <p class="name-ways">Two-day Dali & Lijiang tour</p>
                   </div>
                 </div>
@@ -104,7 +110,7 @@ export class experienceOffers extends HTMLElement {
               <div class="list-ways">
                 <div class="box-ways">
                   <div class="detail-ways">
-                    <div class="img-ways" style="background-image:url('./assets/images/ways-02.jpg')"></div>
+                    <div class="img-ways" style="background-image:url('${ways02}')"></div>
                     <p class="name-ways">Two-day Dali & Lijiang tour</p>
                   </div>
                 </div>
@@ -134,8 +140,8 @@ export class experienceOffers extends HTMLElement {
               <div class="list-stories">
                 <div class="box-stories">
                   <div class="detail-stories">
-                    <div class="img-stories" style="background-image:url('./assets/images/stories-01.jpg')">
-                      <div class="img-blur" style="background-image:url('./assets/images/stories-01.jpg')"></div>
+                    <div class="img-stories" style="background-image:url('${stories01}')">
+                      <div class="img-blur" style="background-image:url('${stories01}')"></div>
                       <div class="text-stories">
                         <p class="name">The Linden Story <br><span>by Duen Punyashthiti</span></p>
                       </div>
@@ -146,8 +152,8 @@ export class experienceOffers extends HTMLElement {
               <div class="list-stories">
                 <div class="box-stories">
                   <div class="detail-stories">
-                    <div class="img-stories" style="background-image:url('./assets/images/stories-02.jpg')">
-                      <div class="img-blur" style="background-image:url('./assets/images/stories-02.jpg')"></div>
+                    <div class="img-stories" style="background-image:url('${stories02}')">
+                      <div class="img-blur" style="background-image:url('${stories02}')"></div>
                       <div class="text-stories">
                         <p class="name">The Linden Story <br><span>by Duen Punyashthiti</span></p>
                       </div>

@@ -1,3 +1,4 @@
+import banner from '../assets/images/banner.jpg';
 export class experienceBanner extends HTMLElement {
 
   constructor() {
@@ -6,7 +7,7 @@ export class experienceBanner extends HTMLElement {
   }
 
   get banner() {
-    return this.getAttribute('banner');
+    return this.getAttribute('banner') || banner;
   }
 
   get link() {
