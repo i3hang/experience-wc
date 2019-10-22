@@ -28,7 +28,7 @@ export class experienceNavbar extends HTMLElement {
       
       <div id="navbar" class="exper-navbar">
         <div class="logo">
-          <img src="${logo}" alt="logo">
+          <img src="${this.logo || logo}" alt="logo">
         </div>
         <ul class="list-menu">
           <li>

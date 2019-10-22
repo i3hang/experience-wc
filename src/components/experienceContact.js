@@ -10,35 +10,57 @@ export class experienceContact extends HTMLElement {
     this.template();
   }
 
+  get address() {
+    return this.getAttribute('address') || '';
+  }
+
+  get tel() {
+    return this.getAttribute('tel') || '';
+  }
+
+  get email() {
+    return this.getAttribute('email') || '';
+  }
+
+  get websiteName() {
+    return this.getAttribute('websiteName') || '';
+  }
+
+  get websiteLink() {
+    return this.getAttribute('websiteLink') || '';
+  }
+
+  get contact5() {
+    return this.getAttribute('contact5') || '';
+  }
+
   template() {
     this.innerHTML = `
       <div class="exp-contact">
         <ul class="list-contact">
-          <li>
+          <li style="display:${(this.address)?'flex':'none'}">
             <div class="icon">
               <img src="${contact01}" alt="icon-contact">
             </div>
             <div class="post-contact">
-              #5 Cheng Bei village <br/>
-              Xizhou Town, Dali City, <br/>
-              Yunnan Province, China <br/>
+              ${this.address}
             </div>
           </li>
-          <li>
+          <li style="display:${(this.tel)?'flex':'none'}">
             <div class="icon"><img src="${contact02}" alt="icon-contact"></div>
-            <div class="post-contact">(86)872-2452988</div>
+            <div class="post-contact">${this.tel}</div>
           </li>
-          <li>
+          <li style="display:${(this.email)?'flex':'none'}">
             <div class="icon"><img src="${contact03}" alt="icon-contact"></div>
-            <div class="post-contact">reservations@linden-centre.com</div>
+            <div class="post-contact">${this.email}</div>
           </li>
-          <li>
+          <li style="display:${(this.websiteLink)?'flex':'none'}">
             <div class="icon"><img src="${contact04}" alt="icon-contact"></div>
-            <div class="post-contact">www.linden-centre.com</div>
+            <div class="post-contact"><a href="${this.websiteLink}">${this.websiteName}</a></div>
           </li>
-          <li>
+          <li style="display:${(this.contact5)?'flex':'none'}">
             <div class="icon"><img src="${contact05}" alt="icon-contact"></div>
-            <div class="post-contact">Operated.planning.rated</div>
+            <div class="post-contact">${this.contact5}</div>
           </li>
         </ul>
       </div>
