@@ -7,6 +7,27 @@ export class experienceHeaders extends HTMLElement {
   constructor() {
     super();
     this.template();
+    this.carousel = this.querySelector('.owl-carousel');
+  }
+
+  get images() {
+    return this._images;
+  }
+
+  set images(images) {
+    this._images = images;
+    if (images) {
+      this.carousel.innerHTML = images.map(img => `<div class="item" style="background-image: url(${img})"></div>`).join('');
+
+      $(this.carousel).owlCarousel({
+        dots: false,
+        responsive: {
+          0: {
+            items: 1
+          }
+        }
+      });
+    }
   }
 
   get background() {
@@ -23,11 +44,9 @@ export class experienceHeaders extends HTMLElement {
 
   template() {
     let list = document.querySelector("exp-wc");
-      this.innerHTML = `
+    this.innerHTML = `
         <div class="exper-header">
-          <div class="owl-carousel owl-theme">
-            ${list.slideData}
-          </div>
+          <div class="owl-carousel owl-theme"></div>
           <div class="check-in">
             <div class="title-exper-header">
               <p>The Linden Centre</p>
@@ -87,18 +106,6 @@ export class experienceHeaders extends HTMLElement {
       `
     // const dataSlide = this.slideBackground.split(",");
     // const outputSlide = dataSlide.map(s => '<div class="item" style="background-image: url('+ s +')"></div>').join('');
-    
-
-    $(document).ready(function(){
-      $(".owl-carousel").owlCarousel({
-        dots: false,
-        responsive:{
-          0:{
-            items:1
-          }
-        }
-      });
-    });
   }
 
 }
