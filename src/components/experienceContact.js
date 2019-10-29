@@ -8,59 +8,77 @@ export class experienceContact extends HTMLElement {
   constructor() {
     super();
     this.template();
+    this.addresData = this.querySelector(".address");
+    this.telephoneData = this.querySelector(".tel");
+    this.emailData = this.querySelector(".email");
+    this.websiteData = this.querySelector(".websitelink");
+    this.contact5Data = this.querySelector(".contact5");
+  }
+
+  set address(address) {
+    this._address = address;
+    if (address) {
+      this.addresData.innerHTML = this._address;
+    }
   }
 
   get address() {
-    return this.getAttribute('address') || '';
+    return this._address;
   }
 
-  get tel() {
-    return this.getAttribute('tel') || '';
+  set telephone(tel) {
+    this._telephone = tel;
+    if (tel) {
+      this.telephoneData.innerHTML = this._telephone;
+    }
   }
 
-  get email() {
-    return this.getAttribute('email') || '';
+  set email(email) {
+    this._email = email;
+    if (email) {
+      this.emailData.innerHTML = this._email;
+    }
   }
 
-  get websiteName() {
-    return this.getAttribute('websiteName') || '';
+  set website(data) {
+    this._website = data;
+    if (data) {
+      this.websiteData.innerHTML = `<a href="${data.link}">${data.name}</a>`;
+    }
   }
 
-  get websiteLink() {
-    return this.getAttribute('websiteLink') || '';
-  }
-
-  get contact5() {
-    return this.getAttribute('contact5') || '';
+  set socialIdentifiers(data) {
+    this._contact5 = data;
+    if (data) {
+      this.contact5Data.innerHTML = data;
+    }
   }
 
   template() {
     this.innerHTML = `
       <div class="exp-contact">
         <ul class="list-contact">
-          <li style="display:${(this.address)?'flex':'none'}">
+          <li>
             <div class="icon">
               <img src="${contact01}" alt="icon-contact">
             </div>
-            <div class="post-contact">
-              ${this.address}
-            </div>
+            <div class="post-contact address">${this.address}</div>
           </li>
-          <li style="display:${(this.tel)?'flex':'none'}">
+          <li>
             <div class="icon"><img src="${contact02}" alt="icon-contact"></div>
-            <div class="post-contact">${this.tel}</div>
+            <div class="post-contact tel"></div>
           </li>
-          <li style="display:${(this.email)?'flex':'none'}">
+          <li>
             <div class="icon"><img src="${contact03}" alt="icon-contact"></div>
-            <div class="post-contact">${this.email}</div>
+            <div class="post-contact email"></div>
           </li>
-          <li style="display:${(this.websiteLink)?'flex':'none'}">
+          <li>
             <div class="icon"><img src="${contact04}" alt="icon-contact"></div>
-            <div class="post-contact"><a href="${this.websiteLink}">${this.websiteName}</a></div>
+            <div class="post-contact websitelink"></div>
           </li>
-          <li style="display:${(this.contact5)?'flex':'none'}">
+          <li>
             <div class="icon"><img src="${contact05}" alt="icon-contact"></div>
-            <div class="post-contact">${this.contact5}</div>
+            <div class="post-contact contact5"></div>
           </li>
         </ul>
       </div>

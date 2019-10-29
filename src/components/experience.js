@@ -68,7 +68,17 @@ export class experienceWc extends HTMLElement {
     // Assign ให้กับ Property "data" ของแต่ละ elements
     if (this._data) {
       this.elements.header.images = this._data.sliderImageUrls;
+
       this.elements.about.text = this._data.content;
+
+      this.elements.contact.address = this._data.address;
+      this.elements.contact.telephone = this._data.telephone;
+      this.elements.contact.email = this._data.email;
+      this.elements.contact.website = { name: this._data.websiteName, link: this._data.websiteLink};
+      this.elements.contact.socialIdentifiers = this._data.socialIdentifiers;
+
+      this.elements.nearby.experiences = this._data.experiences;
+      this.elements.nearby.nearbyExperiences = this._data.linkedExperiences;
     }
   }
 
@@ -79,15 +89,8 @@ export class experienceWc extends HTMLElement {
     return this._data;
   }
 
-  // get slideData() {
-  //   return this.dataJson ? this.dataJson.then(res => {
-  //     return res.data.sliderImageUrls.map(s => { '<div class="item" style="background-image: url(' + s + ')"></div>' });
-  //   }) : null;
-  // }
 
   template() {
-    //slideBackground="${res.data.sliderImageUrls}" dataJsonTest="${res.data.experiences}"
-    //address="${res.data.address}" tel="${res.data.telephone}" email="${res.data.email}" websiteName="${res.data.websiteName}" websiteLink="${res.data.websiteLink}"
     this.innerHTML = `
         <exp-header header></exp-header>
         <exp-navbar></exp-navbar>
