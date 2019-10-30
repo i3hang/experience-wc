@@ -23,7 +23,6 @@ export class experienceNearby extends HTMLElement {
 
   set experiences(data) {
     this._experiences = data;
-    console.log(data);
     if (data) {
       this.hotelsData.innerHTML = data.map(nearby => `
       <div class="list-hotels">
@@ -56,7 +55,6 @@ export class experienceNearby extends HTMLElement {
 
   set nearbyExperiences(data) {
     this._nearby = data;
-    console.log(data);
     if (data) {
       this.experiencesData.innerHTML = data.map(nearby => `
       <div class="list-hotels">

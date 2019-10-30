@@ -6,6 +6,27 @@ export class experienceFeatured extends HTMLElement {
   constructor() {
     super();
     this.template();
+    this.featuresList = this.querySelector('.row-featured');
+    this.expFeatured = this.querySelectorAll('.exp-featured');
+  }
+
+  get features() {
+    
+  }
+
+  set features(features) {
+    this._features = features;
+    if (features.length > 0) {
+      this.featuresList.innerHTML = features.map(f => `
+                                      <div class="list-featured">
+                                        <div class="box-featured">
+                                          <a href="#">
+                                            <img src="${f}" alt="img-featured" style="width: 100%">
+                                          </a>
+                                        </div>
+                                      </div>
+                                    `).join('');
+    }
   }
 
   template() {
@@ -20,22 +41,7 @@ export class experienceFeatured extends HTMLElement {
           </p>
 
           <div class="img-featured">
-            <div class="row-featured">
-              <div class="list-featured">
-                <div class="box-featured">
-                  <a href="#">
-                    <img src="${featured01}" alt="img-featured" style="width: 100%">
-                  </a>
-                </div>
-              </div>
-              <div class="list-featured">
-                <div class="box-featured">
-                  <a href="#">
-                    <img src="${featured02}" alt="img-featured" style="width: 100%">
-                  </a>
-                </div>
-              </div>
-            </div>
+            <div class="row-featured"></div>
           </div>
 
           <exp-banner banner="${banner}"></exp-banner>

@@ -2,10 +2,9 @@ export class experienceWc extends HTMLElement {
 
   constructor() {
     super();
-    this._data = null;
+    // this._data = null;
     this._slides = "";
     this.template();
-
     // อ้างถึง Element ตัวต่างๆ ใน Component นี้ เอาไว้เขียนโปรแกรมจัดการในภายหลัง
     this.elements = {
       header: this.querySelector('exp-header'),
@@ -21,6 +20,8 @@ export class experienceWc extends HTMLElement {
       featured: this.querySelector('exp-featured'),
       footer: this.querySelector('exp-footer')
     };
+
+
   }
 
   /**
@@ -68,17 +69,35 @@ export class experienceWc extends HTMLElement {
     // Assign ให้กับ Property "data" ของแต่ละ elements
     if (this._data) {
       this.elements.header.images = this._data.sliderImageUrls;
+      this.elements.header.title = this._data.title;
+      this.elements.header.ctaText = this._data.ctaText;
 
       this.elements.about.text = this._data.content;
 
       this.elements.contact.address = this._data.address;
       this.elements.contact.telephone = this._data.telephone;
       this.elements.contact.email = this._data.email;
-      this.elements.contact.website = { name: this._data.websiteName, link: this._data.websiteLink};
+      this.elements.contact.website = {
+        name: this._data.websiteName,
+        link: this._data.websiteLink
+      };
       this.elements.contact.socialIdentifiers = this._data.socialIdentifiers;
 
       this.elements.nearby.experiences = this._data.experiences;
       this.elements.nearby.nearbyExperiences = this._data.linkedExperiences;
+
+      if (!this._data.offers) {
+        this.elements.offers.offersData = this._data.offers;
+      } else {
+        this.elements.offers.remove();
+      }
+
+      if (!this._data.features) {
+        this.elements.featured.features = this._data.features;
+      } else {
+        this.elements.featured.remove();
+      }
+
     }
   }
 
@@ -92,18 +111,18 @@ export class experienceWc extends HTMLElement {
 
   template() {
     this.innerHTML = `
-        <exp-header header></exp-header>
-        <exp-navbar></exp-navbar>
-        <exp-images-board></exp-images-board>
-        <exp-banner></exp-banner>
-        <exp-traval></exp-traval>
-        <exp-affiliations></exp-affiliations>
-        <exp-nearby></exp-nearby>
-        <exp-offers></exp-offers>
-        <exp-about></exp-about>
-        <exp-contact></exp-contact>
-        <exp-featured></exp-featured>
-        <exp-footer></exp-footer>
+      <exp-header></exp-header>
+      <exp-navbar></exp-navbar>
+      <exp-images-board></exp-images-board>
+      <exp-banner></exp-banner>
+      <exp-traval></exp-traval>
+      <exp-affiliations></exp-affiliations>
+      <exp-nearby></exp-nearby>
+      <exp-offers></exp-offers>
+      <exp-about></exp-about>
+      <exp-contact></exp-contact>
+      <exp-featured></exp-featured>
+      <exp-footer></exp-footer>
       `;
   }
 }

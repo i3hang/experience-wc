@@ -8,6 +8,8 @@ export class experienceHeaders extends HTMLElement {
     super();
     this.template();
     this.carousel = this.querySelector('.owl-carousel');
+    this.titleText = this.querySelector('.title');
+    this.btnBook = this.querySelector('.btn-book');
   }
 
   get images() {
@@ -30,26 +32,35 @@ export class experienceHeaders extends HTMLElement {
     }
   }
 
-  get background() {
-    return this.getAttribute('background');
+  get title() {
+    return this._title;
   }
 
-  get className() {
-    return this.getAttribute('className');
+  set title(title) {
+    this._title = title;
+    if (title) {
+      this.titleText.innerHTML = this._title;
+    }
   }
 
-  get slideBackground() {
-    return this.getAttribute('slideBackground');
+  get ctaText() {
+    return this._ctaText;
+  }
+
+  set ctaText(ctaText) {
+    this._ctaText = ctaText;
+    if (ctaText) {
+      this.btnBook.innerHTML = this._ctaText;
+    }
   }
 
   template() {
-    let list = document.querySelector("exp-wc");
     this.innerHTML = `
         <div class="exper-header">
           <div class="owl-carousel owl-theme"></div>
           <div class="check-in">
             <div class="title-exper-header">
-              <p>The Linden Centre</p>
+              <p class="title">The Linden Centre</p>
               <p>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16.837" height="24.303" viewBox="0 0 16.837 24.303">
                   <g id="Group_11" data-name="Group 11" transform="translate(0 0)">
@@ -103,9 +114,7 @@ export class experienceHeaders extends HTMLElement {
             </div>
           </div>    
         </div>
-      `
-    // const dataSlide = this.slideBackground.split(",");
-    // const outputSlide = dataSlide.map(s => '<div class="item" style="background-image: url('+ s +')"></div>').join('');
+      `;
   }
 
 }
