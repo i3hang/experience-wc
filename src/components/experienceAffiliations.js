@@ -5,6 +5,21 @@ export class experienceAffiliations extends HTMLElement {
   constructor() {
     super();
     this.template();
+
+    this.affiliationsData = this.querySelector(".affiliations");
+  }
+
+  set affiliations(data) {
+    this._affiliations = data;
+    if (data) {
+      this.affiliationsData.innerHTML = data.map(affiliationsData => `
+        <li>
+          <a href="#">
+            <img src="${affiliationsData.logoUrl}" alt="exper-logo">
+          </a>
+        </li>
+      `).join('');
+    }
   }
 
   template() {
@@ -14,21 +29,10 @@ export class experienceAffiliations extends HTMLElement {
           <p class="title">Affiliations</p>
 
           <div class="experience-logo">
-            <ul class="list-logo">
-              <li>
-                <a href="#">
-                  <img src="${experLogo01}" alt="exper-logo">
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="${experLogo02}" alt="exper-logo">
-                </a>
-              </li>
-            </ul>
+            <ul class="list-logo affiliations"></ul>
           </div>
 
-          <div class="map-detail">
+          <div class="map-detail" style="display: none;">
             <p class="address">Dali, Yunnan, China</p>
             <div class="map"></div>
           </div>
@@ -38,4 +42,3 @@ export class experienceAffiliations extends HTMLElement {
   }
 
 }
-

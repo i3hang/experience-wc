@@ -465,12 +465,18 @@
   justify-content: center;
   padding-top: 60px;
   padding-bottom: 70px;
+
+  &.hide {
+    display: none;
+  }
 }
 
 .exp-banner img{
   max-width: 728px;
   width: 100%;
 }
+
+
 
 
 /* WEB TRAVAL */
@@ -872,6 +878,7 @@
   -ms-flex: 0 0 50%;
   flex: 0 0 50%;
   max-width: 50%;
+  margin-bottom: 10px;
 }
 
 .exp-offers .stories .list-stories .box-stories .detail-stories {

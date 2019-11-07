@@ -21,7 +21,7 @@ export class experienceNearby extends HTMLElement {
     this.experiencesData = this.querySelector(".experiences");
   }
 
-  set experiences(data) {
+  set nearByHotels(data) {
     this._experiences = data;
     if (data) {
       this.hotelsData.innerHTML = data.map(nearby => `
@@ -53,7 +53,7 @@ export class experienceNearby extends HTMLElement {
     }
   }
 
-  set nearbyExperiences(data) {
+  set nearByExperiences(data) {
     this._nearby = data;
     if (data) {
       this.experiencesData.innerHTML = data.map(nearby => `
@@ -64,12 +64,12 @@ export class experienceNearby extends HTMLElement {
               1.5 km away
             </div>
             
-            <div class="img-hotels" style="background-image: url('${nearby.experience.sliderImageUrls[0]}')"></div>
+            <div class="img-hotels" style="background-image: url('${nearby.thumbnailUrl}')"></div>
             <div class="name-hotels">
               <button class="btn-book">
                 Book Now
               </button>
-              <p class="name">${nearby.experience.title}</p>
+              <p class="name">${nearby.title}</p>
 
               <p class="lating">
                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="12.975" viewBox="0 0 15 12.975">
@@ -111,7 +111,7 @@ export class experienceNearby extends HTMLElement {
             </div>
           </div>
 
-          <exp-banner banner="${banner}"></exp-banner>
+          <exp-banner banner="${banner}" hide="hide"></exp-banner>
 
           <p class="title">
             <svg xmlns="http://www.w3.org/2000/svg" width="66.116" height="33.637" viewBox="0 0 66.116 33.637">
@@ -131,142 +131,7 @@ export class experienceNearby extends HTMLElement {
           </p>
 
           <div class="nearby-hotels">
-            <div class="row-hotels experiences">
-              <div class="list-hotels">
-                <div class="box-hotels">
-                  <div class="detail-hotels">
-                    <div class="ways">
-                      1.5 km away
-                    </div>
-                    
-                    <div class="img-hotels" style="background-image: url('${hotelss01}')"></div>
-                    <div class="name-hotels">
-                      <button class="btn-book">
-                        Book Now
-                      </button>
-                      <p class="name">Yunnan Shaxi Ancient Town</p>
-
-                      <p class="lating">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="12.975" viewBox="0 0 15 12.975">
-                          <path id="Path_374" data-name="Path 374" d="M507.975,287.94c.338-.342.647-.668.97-.98a3.866,3.866,0,1,1,5.4,5.528q-2.745,2.752-5.5,5.5c-.27.271-.539.543-.82.826-.062-.057-.115-.1-.165-.153-1.742-1.742-3.49-3.479-5.222-5.231a13.311,13.311,0,0,1-1.376-1.549,3.77,3.77,0,0,1,2.2-5.916,3.73,3.73,0,0,1,3.513.975C507.327,287.251,507.638,287.6,507.975,287.94Z" transform="translate(-500.538 -285.837)" fill="#bebebe"/>
-                        </svg>&nbsp;
-                        210
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="list-hotels">
-                <div class="box-hotels">
-                  <div class="detail-hotels">
-                    <div class="ways">
-                      1.5 km away
-                    </div>
-                    
-                    <div class="img-hotels" style="background-image: url('${hotelss02}')"></div>
-                    <div class="name-hotels">
-                      <!--<button class="btn-book">
-                        Book Now
-                      </button>-->
-                      <p class="name">Dali Cang Mountain</p>
-
-                      <p class="lating">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="12.975" viewBox="0 0 15 12.975">
-                          <path id="Path_374" data-name="Path 374" d="M507.975,287.94c.338-.342.647-.668.97-.98a3.866,3.866,0,1,1,5.4,5.528q-2.745,2.752-5.5,5.5c-.27.271-.539.543-.82.826-.062-.057-.115-.1-.165-.153-1.742-1.742-3.49-3.479-5.222-5.231a13.311,13.311,0,0,1-1.376-1.549,3.77,3.77,0,0,1,2.2-5.916,3.73,3.73,0,0,1,3.513.975C507.327,287.251,507.638,287.6,507.975,287.94Z" transform="translate(-500.538 -285.837)" fill="#bebebe"/>
-                        </svg>&nbsp;
-                        210
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="list-hotels">
-                <div class="box-hotels">
-                  <div class="detail-hotels">
-                    <div class="ways">
-                      1.5 km away
-                    </div>
-                    
-                    <div class="img-hotels" style="background-image: url('${hotelss03}')"></div>
-                    <div class="name-hotels">
-                      <!--<button class="btn-book">
-                        Book Now
-                      </button>-->
-                      <p class="name">Butterfly Spring Park</p>
-
-                      <p class="lating">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="12.975" viewBox="0 0 15 12.975">
-                          <path id="Path_374" data-name="Path 374" d="M507.975,287.94c.338-.342.647-.668.97-.98a3.866,3.866,0,1,1,5.4,5.528q-2.745,2.752-5.5,5.5c-.27.271-.539.543-.82.826-.062-.057-.115-.1-.165-.153-1.742-1.742-3.49-3.479-5.222-5.231a13.311,13.311,0,0,1-1.376-1.549,3.77,3.77,0,0,1,2.2-5.916,3.73,3.73,0,0,1,3.513.975C507.327,287.251,507.638,287.6,507.975,287.94Z" transform="translate(-500.538 -285.837)" fill="#bebebe"/>
-                        </svg>&nbsp;
-                        210
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="list-hotels">
-                <div class="box-hotels">
-                  <div class="detail-hotels">
-                    <div class="ways">
-                      1.5 km away
-                    </div>
-                    
-                    <div class="img-hotels" style="background-image: url('${hotelss04}')"></div>
-                    <div class="name-hotels">
-                      <button class="btn-book">
-                        Book Now
-                      </button>
-                      <p class="name">Monumnet of Shih-tsu Taking over Yunnan</p>
-
-                      <p class="lating">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="12.975" viewBox="0 0 15 12.975">
-                          <path id="Path_374" data-name="Path 374" d="M507.975,287.94c.338-.342.647-.668.97-.98a3.866,3.866,0,1,1,5.4,5.528q-2.745,2.752-5.5,5.5c-.27.271-.539.543-.82.826-.062-.057-.115-.1-.165-.153-1.742-1.742-3.49-3.479-5.222-5.231a13.311,13.311,0,0,1-1.376-1.549,3.77,3.77,0,0,1,2.2-5.916,3.73,3.73,0,0,1,3.513.975C507.327,287.251,507.638,287.6,507.975,287.94Z" transform="translate(-500.538 -285.837)" fill="#bebebe"/>
-                        </svg>&nbsp;
-                        210
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="list-hotels">
-                <div class="box-hotels">
-                  <div class="detail-hotels">
-                    <div class="ways">
-                      1.5 km away
-                    </div>
-                    
-                    <div class="img-hotels" style="background-image: url('${hotelss05}')"></div>
-                    <div class="name-hotels">
-                      <button class="btn-book">
-                        Book Now
-                      </button>
-                      <p class="name">Tianlongbabu Film Studio</p>
-
-                      <p class="lating">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="12.975" viewBox="0 0 15 12.975">
-                          <path id="Path_374" data-name="Path 374" d="M507.975,287.94c.338-.342.647-.668.97-.98a3.866,3.866,0,1,1,5.4,5.528q-2.745,2.752-5.5,5.5c-.27.271-.539.543-.82.826-.062-.057-.115-.1-.165-.153-1.742-1.742-3.49-3.479-5.222-5.231a13.311,13.311,0,0,1-1.376-1.549,3.77,3.77,0,0,1,2.2-5.916,3.73,3.73,0,0,1,3.513.975C507.327,287.251,507.638,287.6,507.975,287.94Z" transform="translate(-500.538 -285.837)" fill="#bebebe"/>
-                        </svg>&nbsp;
-                        210
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="list-hotels">
-                <div class="box-hotels">
-                  <div class="detail-hotels">
-                    <div class="ways">
-                      1.5 km away
-                    </div>
-                    
-                    <div class="img-hotels" style="background-image: url('${hotelss06}')"></div>
-                    <div class="name-hotels">
-                      <p class="name">Bangkok Post</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <div class="row-hotels experiences"></div>
           </div>
 
         </div>

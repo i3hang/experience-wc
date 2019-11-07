@@ -1,299 +1,387 @@
 {
-   "success":true,
-   "data":{
-      "_id":"591ef6451efa6db89717a6f9",
-      "postId":435,
-      "name":"intercontinental-kunming",
-      "title":"InterContinental Kunming",
-      "content":"<h1>InterContinental Kunming</h1><p>A lakeside retreat featuring exotic flora and fauna, we offer stunning views of the Dianchi area, quiet luxury and a world-class cuisine sure to make your visit to Kunming a welcome escape. We are 40 km from Kunming Airport and close to attractions such as Dianchi and Xishan. We offer 541 luxury guest rooms and suites with panoramic views of Dianchi. Our flexible 9 function spaces, including a 1,500-plus seat grand ballroom, will cater to your every meeting and banquet need.</p>",
-      "logoUrl":"https://s3-ap-southeast-1.amazonaws.com/ew-files/apps/591a8e4d5c99536df7e4f609/2017/03/uhf_ic_logo_ube.png",
-      "thumbnailUrl":"https://ew-files.s3.ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2018/01/IHG_InterContinental_Kunming.jpg",
-      "ctaText":"BOOK NOW",
-      "ctaLink":"https://www.intercontinental.com/hotels/gb/en/kunming/kmgyr/hoteldetail?qAdlt=1&qBrs=6c.hi.ex.rs.ic.cp.in.sb.cw.cv.ul.vn.ki.sp.nd.ct&qChld=0&qFRA=1&qGRM=0&qIta=99617280&qPSt=0&qRRSrt=rt&qRef=df&qRms=1&qRpn=1&qRpp=20&qSHp=1&qSmP=3&qSrt=sBR&qWch=0&srb_u=1&icdv=99617280&dp=true&glat=SEAR",
-      "bgColor":"#919191",
-      "fgColor":"#ffffff",
-      "sidebarBgColor":"#919191",
-      "sidebarFgColor":"#ffffff",
-      "address":"No. 5 Yijing Road , Xishan District : Kunming , Yunnan ,650228, China (People's Republic)",
-      "email":"enquiry@ickunming.com",
-      "telephone":"+86-871-63188888",
-      "websiteName":"InterContinental Kunming",
-      "websiteLink":"https://www.intercontinental.com/hotels/gb/en/kunming/kmgyr/hoteldetail?qAdlt=1&qBrs=6c.hi.ex.rs.ic.cp.in.sb.cw.cv.ul.vn.ki.sp.nd.ct&qChld=0&qFRA=1&qGRM=0&qIta=99617280&qPSt=0&qRRSrt=rt&qRef=df&qRms=1&qRpn=1&qRpp=20&qSHp=1&qSmP=3&qSrt=sBR&qWch=0&srb_u=1&icdv=99617280&dp=true&glat=SEAR",
-      "latitude":24.977656,
-      "longitude":102.656424,
-      "socialIdentifiers":"#intercontinentalkunming",
-      "facebookLink":"",
-      "twitterLink":"",
-      "instagramLink":"",
-      "gplusLink":"",
-      "pinterestLink":"",
-      "linkedInLink":"",
-      "youtubeLink":"",
-      "wechatLink":"",
-      "featuresIds":[
+   "success": true,
+   "data": {
+      "_id": "591ef6451efa6db89717a6f9",
+      "postId": 435,
+      "name": "intercontinental-kunming",
+      "title": "InterContinental Kunming",
+      "content": "<h1>InterContinental Kunming</h1><p>A lakeside retreat featuring exotic flora and fauna, we offer stunning views of the Dianchi area, quiet luxury and a world-class cuisine sure to make your visit to Kunming a welcome escape. We are 40 km from Kunming Airport and close to attractions such as Dianchi and Xishan. We offer 541 luxury guest rooms and suites with panoramic views of Dianchi. Our flexible 9 function spaces, including a 1,500-plus seat grand ballroom, will cater to your every meeting and banquet need.</p>",
+      "logoUrl": "https://s3-ap-southeast-1.amazonaws.com/ew-files/apps/591a8e4d5c99536df7e4f609/2017/03/uhf_ic_logo_ube.png",
+      "thumbnailUrl": "https://ew-files.s3.ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2018/01/IHG_InterContinental_Kunming.jpg",
+      "ctaText": "BOOK NOW",
+      "ctaLink": "https://www.intercontinental.com/hotels/gb/en/kunming/kmgyr/hoteldetail?qAdlt=1&qBrs=6c.hi.ex.rs.ic.cp.in.sb.cw.cv.ul.vn.ki.sp.nd.ct&qChld=0&qFRA=1&qGRM=0&qIta=99617280&qPSt=0&qRRSrt=rt&qRef=df&qRms=1&qRpn=1&qRpp=20&qSHp=1&qSmP=3&qSrt=sBR&qWch=0&srb_u=1&icdv=99617280&dp=true&glat=SEAR",
+      "bgColor": "#919191",
+      "fgColor": "#ffffff",
+      "sidebarBgColor": "#919191",
+      "sidebarFgColor": "#ffffff",
+      "address": "No. 5 Yijing Road , Xishan District : Kunming , Yunnan ,650228, China (People's Republic)",
+      "email": "enquiry@ickunming.com",
+      "telephone": "+86-871-63188888",
+      "websiteName": "InterContinental Kunming",
+      "websiteLink": "https://www.intercontinental.com/hotels/gb/en/kunming/kmgyr/hoteldetail?qAdlt=1&qBrs=6c.hi.ex.rs.ic.cp.in.sb.cw.cv.ul.vn.ki.sp.nd.ct&qChld=0&qFRA=1&qGRM=0&qIta=99617280&qPSt=0&qRRSrt=rt&qRef=df&qRms=1&qRpn=1&qRpp=20&qSHp=1&qSmP=3&qSrt=sBR&qWch=0&srb_u=1&icdv=99617280&dp=true&glat=SEAR",
+      "latitude": 24.977656,
+      "longitude": 102.656424,
+      "socialIdentifiers": "#intercontinentalkunming",
+      "facebookLink": "",
+      "twitterLink": "",
+      "instagramLink": "",
+      "gplusLink": "",
+      "pinterestLink": "",
+      "linkedInLink": "",
+      "youtubeLink": "",
+      "wechatLink": "",
+      "featuresIds": [
 
       ],
-      "categoriesIds":[
+      "categoriesIds": [
          135,
          121,
          210
       ],
-      "locationId":78,
-      "travelerTypesId":[
+      "locationId": 78,
+      "travelerTypesId": [
 
       ],
-      "groupsIds":[
+      "groupsIds": [
          306
       ],
-      "sliderImageUrls":[
+      "sliderImageUrls": [
          "https://s3-ap-southeast-1.amazonaws.com/ew-files/apps/591a8e4d5c99536df7e4f609/2017/03/intercontinental-kunming-4088970077-2x1.jpg",
          "https://s3-ap-southeast-1.amazonaws.com/ew-files/apps/591a8e4d5c99536df7e4f609/2017/03/intercontinental-kunming-4088977431-2x1.jpg",
          "https://s3-ap-southeast-1.amazonaws.com/ew-files/apps/591a8e4d5c99536df7e4f609/2017/03/intercontinental-kunming-4090849459-2x1.jpg",
          "https://s3-ap-southeast-1.amazonaws.com/ew-files/apps/591a8e4d5c99536df7e4f609/2017/03/intercontinental-kunming-4090938486-2x1.png"
       ],
-      "subpages":[
+      "subpages": [
 
       ],
-      "appId":"591a8e4d5c99536df7e4f609",
-      "categories":[
+      "appId": "591a8e4d5c99536df7e4f609",
+      "categories": [
          "591ea700e8a5dd18aca5eb79",
          "591ea701e8a5dd18aca5ebbf",
          "591ea701e8a5dd18aca5ebc4"
       ],
-      "features":[
+      "features": [
 
       ],
-      "travelerTypes":[
+      "travelerTypes": [
 
       ],
-      "travelerTypesIds":[
+      "travelerTypesIds": [
 
       ],
-      "__v":2,
-      "location":"591ea6fee8a5dd18aca5eb48",
-      "groups":[
-         {
-            "_id":"591ea6ffe8a5dd18aca5eb72",
-            "title":"IHG",
-            "name":"ihg",
-            "sliderImageUrls":[
+      "__v": 2,
+      "location": "591ea6fee8a5dd18aca5eb48",
+      "groups": [{
+            "_id": "591ea6ffe8a5dd18aca5eb72",
+            "title": "IHG",
+            "name": "ihg",
+            "sliderImageUrls": [
 
             ],
-            "footerLogoUrl":"",
-            "logoUrl":"https://s3-ap-southeast-1.amazonaws.com/ew-files/apps/591a8e4d5c99536df7e4f609/2017/06/ihg_bmk_rgb_wht.png",
-            "primaryColor":"#3f3d3"
+            "footerLogoUrl": "",
+            "logoUrl": "https://s3-ap-southeast-1.amazonaws.com/ew-files/apps/591a8e4d5c99536df7e4f609/2017/06/ihg_bmk_rgb_wht.png",
+            "primaryColor": "#3f3d3"
          },
          {
-            "_id":"59490c229308e602a639255f",
-            "name":"china",
-            "title":"China",
-            "primaryColor":"#d71a21",
-            "logoUrl":"https://s3-ap-southeast-1.amazonaws.com/ew-files/apps/591a8e4d5c99536df7e4f609/2017/10/China-like-never-before-logo_white.png",
-            "squareLogoUrl":"",
-            "footerLogoUrl":"https://s3-ap-southeast-1.amazonaws.com/ew-files/apps/591a8e4d5c99536df7e4f609/2017/10/China-like-never-before-logo_white.png",
-            "sliderImageUrls":[
+            "_id": "59490c229308e602a639255f",
+            "name": "china",
+            "title": "China",
+            "primaryColor": "#d71a21",
+            "logoUrl": "https://s3-ap-southeast-1.amazonaws.com/ew-files/apps/591a8e4d5c99536df7e4f609/2017/10/China-like-never-before-logo_white.png",
+            "squareLogoUrl": "",
+            "footerLogoUrl": "https://s3-ap-southeast-1.amazonaws.com/ew-files/apps/591a8e4d5c99536df7e4f609/2017/10/China-like-never-before-logo_white.png",
+            "sliderImageUrls": [
 
             ]
          },
          {
-            "_id":"59479b4764a55c2bfcd1350e",
-            "name":"ihg-china",
-            "title":"IHG China",
-            "primaryColor":"",
-            "logoUrl":"",
-            "squareLogoUrl":"",
-            "footerLogoUrl":"",
-            "sliderImageUrls":[
+            "_id": "59479b4764a55c2bfcd1350e",
+            "name": "ihg-china",
+            "title": "IHG China",
+            "primaryColor": "",
+            "logoUrl": "",
+            "squareLogoUrl": "",
+            "footerLogoUrl": "",
+            "sliderImageUrls": [
 
             ]
          },
          {
-            "_id":"5b8e53762a6246000e7560f8",
-            "sliderImageUrls":[
+            "_id": "5b8e53762a6246000e7560f8",
+            "sliderImageUrls": [
 
             ],
-            "name":"mekong-tea-caravan-trail",
-            "title":"Mekong Tea Caravan Trail",
-            "primaryColor":"#4357AD",
-            "logoUrl":"https://ew-files.s3.ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2018/09/mekong-tea-caravan-trail_logo.png",
-            "squareLogoUrl":"",
-            "footerLogoUrl":"https://ew-files.s3.ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2018/09/LOGO-The-Amazing-Smile-4.png"
+            "name": "mekong-tea-caravan-trail",
+            "title": "Mekong Tea Caravan Trail",
+            "primaryColor": "#4357AD",
+            "logoUrl": "https://ew-files.s3.ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2018/09/mekong-tea-caravan-trail_logo.png",
+            "squareLogoUrl": "",
+            "footerLogoUrl": "https://ew-files.s3.ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2018/09/LOGO-The-Amazing-Smile-4.png"
          }
       ],
-      "primaryColor":"#232530",
-      "secondaryColor":"#232530",
-      "showWatermark":true,
-      "offers":[
-
-      ],
-      "experiences":[
+      "primaryColor": "#232530",
+      "secondaryColor": "#232530",
+      "showWatermark": true,
+      "affiliations": [
          {
-            "_id":"591ef6451efa6db89717a6c0",
-            "name":"butterfly-bar",
-            "title":"BUTTERFLY BAR",
-            "thumbnailUrl":"https://ew-files.s3.ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2018/01/InterCon_Kunming_Butterfly.jpg",
-            "description":"BUTTERFLY BAR Open : 12:00 AM-11:59 PM The Butterfly Bar echoes the \"Eternally Beautiful Butterfly\" theme of the hotel. The inviting venue serves to allow guests to be In The Know about local culture by offering them a wider variety of perspectives, allowing them to truly experience the charm of Yunnan."
+            "_id": "affiliation:000001",
+            "title": "Experience Mekong Collection",
+            "logoUrl": "https://ew-files.s3-ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2017/01/experience-mekong-collection.png"
          },
          {
-            "_id":"591ef6451efa6db89717a6bf",
-            "name":"the-market",
-            "title":"THE MARKET",
-            "thumbnailUrl":"https://ew-files.s3.ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2018/01/InterCon_Kunming_TheMarket.jpg",
-            "description":"THE MARKET Open : 12:00 AM-11:59 PM The name, \"The Market\" is derived from a traditional custom of the Hani Tribe, a Yunnan ethic minority group that dates back to the third century AD. Here a variety of sumptuous Mediterranean and Asian dishes are on offer, as well as a number of Yunnan delicacies, all prepared in open kitchens for guests to enjoy."
-         },
-         {
-            "_id":"591ef6451efa6db89717a6c2",
-            "name":"chambord",
-            "title":"CHAMBORD",
-            "thumbnailUrl":"https://ew-files.s3.ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2018/01/InterCon_Kunming_Chambord.jpg",
-            "description":"CHAMBORD Chambord is a noble and elegant restaurant named after one of the grandest chateaux in France. Top chefs select from the finest ingredients in the world to prepare a range of authentic French cuisine. Chambord is available for use as a multi functional banquet hall."
-         },
-         {
-            "_id":"591ef6451efa6db89717a6c1",
-            "name":"shang-tao-chinese-restaurant",
-            "title":"SHANG TAO CHINESE RESTAURANT",
-            "thumbnailUrl":"https://ew-files.s3.ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2018/01/InterCon_Kunming_ShangTao.jpg",
-            "description":"SHANG TAO CHINESE RESTAURANT 11:00 AM-9:30 PM Shang Tao is the verse from the Kunming \"Daguan Pavilion Poen\" that depicts gourmet food. The names of the seven private rooms of this namesake restaurant cleverly borrow from phrases found in ancient poems praising butterflies. Here, you will enjoy feasts of delicious Cantonese dishes and authentic Yunnan flavors."
+            "_id": "affiliation:000002",
+            "title": "Experience Mekong Showcase",
+            "logoUrl": "https://ew-files.s3-ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2017/01/experience-mekong-showcase.png"
          }
       ],
-      "footerLogoUrl":"https://s3-ap-southeast-1.amazonaws.com/ew-files/apps/591a8e4d5c99536df7e4f609/2017/06/ihg_bmk_rgb_wht.png",
-      "squareLogoUrl":"https://s3-ap-southeast-1.amazonaws.com/ew-files/apps/591a8e4d5c99536df7e4f609/2017/11/IC-square-logo.png",
-      "featuresText":"",
-      "offersText":"",
-      "exploreText":"",
-      "vimeoLink":"",
-      "city":"Hongmiao",
-      "description":"A lakeside retreat featuring exotic flora and fauna, we offer stunning views of the Dianchi area, quiet luxury and a world-class cuisine sure to make your visit to Kunming a welcome escape. We are 40 km from Kunming Airport and close to attractions such as Dianchi and Xishan. We offer 541 luxury guest rooms and suites with panoramic views of Dianchi. Our flexible 9 function spaces, including a 1,500-plus seat grand ballroom, will cater to your every meeting and banquet need.",
-      "creator":null,
-      "linkedExperiences":[
+      "nearByExperiences": [{
+            "_id": "591ef6451efa6db89717a6c0",
+            "name": "butterfly-bar",
+            "title": "BUTTERFLY BAR",
+            "thumbnailUrl": "https://ew-files.s3.ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2018/01/InterCon_Kunming_Butterfly.jpg",
+            "description": "BUTTERFLY BAR Open : 12:00 AM-11:59 PM The Butterfly Bar echoes the \"Eternally Beautiful Butterfly\" theme of the hotel. The inviting venue serves to allow guests to be In The Know about local culture by offering them a wider variety of perspectives, allowing them to truly experience the charm of Yunnan."
+         },
          {
-            "_id":"59c0bae010bb2843cd5feba4",
-            "experience":{
-               "_id":"591ef6451efa6db89717a6c0",
-               "name":"butterfly-bar",
-               "title":"BUTTERFLY BAR",
-               "sliderImageUrls":[
+            "_id": "591ef6451efa6db89717a6bf",
+            "name": "the-market",
+            "title": "THE MARKET",
+            "thumbnailUrl": "https://ew-files.s3.ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2018/01/InterCon_Kunming_TheMarket.jpg",
+            "description": "THE MARKET Open : 12:00 AM-11:59 PM The name, \"The Market\" is derived from a traditional custom of the Hani Tribe, a Yunnan ethic minority group that dates back to the third century AD. Here a variety of sumptuous Mediterranean and Asian dishes are on offer, as well as a number of Yunnan delicacies, all prepared in open kitchens for guests to enjoy."
+         },
+         {
+            "_id": "591ef6451efa6db89717a6c2",
+            "name": "chambord",
+            "title": "CHAMBORD",
+            "thumbnailUrl": "https://ew-files.s3.ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2018/01/InterCon_Kunming_TheMarket.jpg",
+            "description": "CHAMBORD Chambord is a noble and elegant restaurant named after one of the grandest chateaux in France. Top chefs select from the finest ingredients in the world to prepare a range of authentic French cuisine. Chambord is available for use as a multi functional banquet hall."
+         },
+         {
+            "_id": "591ef6451efa6db89717a6c1",
+            "name": "shang-tao-chinese-restaurant",
+            "title": "SHANG TAO CHINESE RESTAURANT",
+            "thumbnailUrl": "https://ew-files.s3.ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2018/01/InterCon_Kunming_ShangTao.jpg",
+            "description": "SHANG TAO CHINESE RESTAURANT 11:00 AM-9:30 PM Shang Tao is the verse from the Kunming \"Daguan Pavilion Poen\" that depicts gourmet food. The names of the seven private rooms of this namesake restaurant cleverly borrow from phrases found in ancient poems praising butterflies. Here, you will enjoy feasts of delicious Cantonese dishes and authentic Yunnan flavors."
+         }
+      ],
+      "nearByHotels": [{
+            "_id": "591ef6451efa6db89717a6c0",
+            "name": "butterfly-bar",
+            "title": "BUTTERFLY BAR",
+            "thumbnailUrl": "https://ew-files.s3.ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2018/01/InterCon_Kunming_Butterfly.jpg",
+            "description": "BUTTERFLY BAR Open : 12:00 AM-11:59 PM The Butterfly Bar echoes the \"Eternally Beautiful Butterfly\" theme of the hotel. The inviting venue serves to allow guests to be In The Know about local culture by offering them a wider variety of perspectives, allowing them to truly experience the charm of Yunnan."
+         },
+         {
+            "_id": "591ef6451efa6db89717a6bf",
+            "name": "the-market",
+            "title": "THE MARKET",
+            "thumbnailUrl": "https://ew-files.s3.ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2018/01/InterCon_Kunming_TheMarket.jpg",
+            "description": "THE MARKET Open : 12:00 AM-11:59 PM The name, \"The Market\" is derived from a traditional custom of the Hani Tribe, a Yunnan ethic minority group that dates back to the third century AD. Here a variety of sumptuous Mediterranean and Asian dishes are on offer, as well as a number of Yunnan delicacies, all prepared in open kitchens for guests to enjoy."
+         },
+         {
+            "_id": "591ef6451efa6db89717a6c2",
+            "name": "chambord",
+            "title": "CHAMBORD",
+            "thumbnailUrl": "https://ew-files.s3.ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2018/01/InterCon_Kunming_TheMarket.jpg",
+            "description": "CHAMBORD Chambord is a noble and elegant restaurant named after one of the grandest chateaux in France. Top chefs select from the finest ingredients in the world to prepare a range of authentic French cuisine. Chambord is available for use as a multi functional banquet hall."
+         },
+         {
+            "_id": "591ef6451efa6db89717a6c1",
+            "name": "shang-tao-chinese-restaurant",
+            "title": "SHANG TAO CHINESE RESTAURANT",
+            "thumbnailUrl": "https://ew-files.s3.ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2018/01/InterCon_Kunming_ShangTao.jpg",
+            "description": "SHANG TAO CHINESE RESTAURANT 11:00 AM-9:30 PM Shang Tao is the verse from the Kunming \"Daguan Pavilion Poen\" that depicts gourmet food. The names of the seven private rooms of this namesake restaurant cleverly borrow from phrases found in ancient poems praising butterflies. Here, you will enjoy feasts of delicious Cantonese dishes and authentic Yunnan flavors."
+         }
+      ],
+      "stories": [{
+         "_id": "story:000000001",
+         "name": "lorem-ipsum-dolor-sit-amet",
+         "title": "Lorem ipsum dolor sit amet",
+         "thumbnailUrl": "https://ew-files.s3.ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2018/01/InterCon_Kunming_Butterfly.jpg",
+         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin ac diam sit amet porta. Praesent elementum nisl a magna facilisis, rutrum lacinia odio suscipit. Integer volutpat lorem ultrices mi egestas, vel placerat nunc pretium. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam maximus nibh eget augue mollis, cursus pharetra nisi tincidunt. Suspendisse dictum, est nec imperdiet vehicula, lectus ligula aliquet ligula, id suscipit odio urna a libero. Fusce mollis blandit enim, sit amet volutpat erat lacinia et. Vivamus eget eleifend neque, et elementum est. Vestibulum varius, metus sit amet sagittis egestas, ex libero placerat velit, vel finibus nibh augue vitae mauris. Aenean tempor blandit risus, ac accumsan nisi aliquet et. Integer suscipit dui vitae erat lacinia suscipit. Duis et molestie arcu. Sed vel dignissim nulla. Maecenas tincidunt libero et ante ultricies, ut mollis felis efficitur. Fusce at posuere elit. Maecenas elementum sed massa et finibus."
+      }, {
+         "_id": "story:000000002",
+         "name": "aenean-leo-ex",
+         "title": "Aenean leo ex, maximus eget tincidunt quis",
+         "thumbnailUrl": "https://ew-files.s3.ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2018/01/InterCon_Kunming_TheMarket.jpg",
+         "description": "Aenean leo ex, maximus eget tincidunt quis, imperdiet sit amet tellus. Suspendisse aliquam, velit quis malesuada eleifend, lorem tortor fermentum mauris, non dapibus magna purus non nibh. Curabitur commodo vehicula mi. Quisque venenatis purus sit amet ante pharetra, a vulputate justo dapibus. Etiam suscipit neque sed nulla ultricies, at elementum ex ornare. Phasellus venenatis turpis vitae consectetur porttitor. Aenean diam augue, condimentum vel tellus vel, dictum sodales odio. Nam aliquam eget quam sit amet elementum. Proin nec ante non orci rhoncus venenatis non eget leo. Curabitur sodales turpis faucibus rhoncus condimentum."
+      }, {
+         "_id": "story:000000003",
+         "name": "sed-purus-tortor",
+         "title": "Sed purus tortor, molestie in urna eu, mollis sagittis elit",
+         "thumbnailUrl": "https://ew-files.s3.ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2018/01/InterCon_Kunming_TheMarket.jpg",
+         "description": "Sed purus tortor, molestie in urna eu, mollis sagittis elit. Vestibulum suscipit felis eget finibus elementum. Nulla nisl mauris, venenatis at nisl et, ultricies sagittis ligula. Donec molestie ornare scelerisque. Maecenas leo tellus, accumsan ac malesuada quis, tempor vestibulum odio. Nullam placerat consectetur ipsum, eu accumsan libero gravida eget. Mauris sit amet odio sapien. Nulla venenatis ornare arcu, non euismod ex ultricies eget. Cras ac placerat sem. Proin a risus vestibulum, consequat quam ac, semper dui. Quisque vulputate nec tortor nec tincidunt. Duis fringilla dictum tincidunt. Nunc mollis hendrerit diam porta laoreet. Cras volutpat justo sit amet quam tempor, ac egestas ex euismod. Donec mattis, mi sit amet lobortis interdum, magna elit efficitur ipsum, sed imperdiet diam urna nec eros."
+      }, {
+         "_id": "story:000000004",
+         "name": "sed-suscipit-porttitor-ligula",
+         "title": "Sed suscipit porttitor ligula",
+         "thumbnailUrl": "https://ew-files.s3.ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2018/01/InterCon_Kunming_ShangTao.jpg",
+         "description": "Sed suscipit porttitor ligula, ac mollis elit elementum a. Integer quis odio euismod, maximus justo sed, viverra purus. Curabitur eu libero lacus. Sed euismod vestibulum risus, et ultricies odio tempor sit amet. Quisque auctor ipsum sit amet aliquet imperdiet. Integer commodo eros at ornare eleifend. Fusce eu diam in quam fringilla pulvinar. Nullam tempor dapibus dolor, at vulputate eros fermentum eu. Integer at consectetur orci, eget dictum turpis. In vel erat ut risus convallis faucibus. Integer vel dignissim enim, id tempus ligula. Nam dignissim vehicula orci a pulvinar. Proin leo ante, congue nec nunc sit amet, volutpat dictum ipsum. Aliquam maximus aliquet lacus id molestie. Maecenas vulputate metus vel elit efficitur lacinia. Etiam lectus eros, feugiat ac sapien in, commodo vulputate eros."
+      }],
+      "trips": [{
+         "_id": "trip:000001",
+         "name": "3-day-dali-shaxi-lijiang-tour",
+         "title": "3-Day Dali, Shaxi & Lijiang Tour",
+         "thumbnailUrl": "https://ew-files.s3.ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2019/07/shutterstock_1436675543.jpg"
+      }, {
+         "_id": "trip:000001",
+         "name": "two-day-dali-lijiang-tour",
+         "title": "Two-day Dali & Lijiang tour",
+         "thumbnailUrl": "https://ew-files.s3.ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2019/07/shutterstock_1141447145.jpg"
+      }],
+      "offers": [{
+         "_id": "offer:000001",
+         "name": "3-day-dali-shaxi-lijiang-tour",
+         "title": "3-Day Dali, Shaxi & Lijiang Tour",
+         "thumbnailUrl": "https://ew-files.s3.ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2019/09/DSCF9368-15.jpg"
+      }, {
+         "_id": "offer:000001",
+         "name": "two-day-dali-lijiang-tour",
+         "title": "Two-day Dali & Lijiang tour",
+         "thumbnailUrl": "https://ew-files.s3.ap-southeast-1.amazonaws.com/apps/591a8e4d5c99536df7e4f609/2019/07/shutterstock_1141447145.jpg"
+      }],
+      "footerLogoUrl": "https://s3-ap-southeast-1.amazonaws.com/ew-files/apps/591a8e4d5c99536df7e4f609/2017/06/ihg_bmk_rgb_wht.png",
+      "squareLogoUrl": "https://s3-ap-southeast-1.amazonaws.com/ew-files/apps/591a8e4d5c99536df7e4f609/2017/11/IC-square-logo.png",
+      "featuresText": "",
+      "offersText": "",
+      "exploreText": "",
+      "vimeoLink": "",
+      "city": "Hongmiao",
+      "description": "A lakeside retreat featuring exotic flora and fauna, we offer stunning views of the Dianchi area, quiet luxury and a world-class cuisine sure to make your visit to Kunming a welcome escape. We are 40 km from Kunming Airport and close to attractions such as Dianchi and Xishan. We offer 541 luxury guest rooms and suites with panoramic views of Dianchi. Our flexible 9 function spaces, including a 1,500-plus seat grand ballroom, will cater to your every meeting and banquet need.",
+      "creator": null,
+      "linkedExperiences": [{
+            "_id": "59c0bae010bb2843cd5feba4",
+            "experience": {
+               "_id": "591ef6451efa6db89717a6c0",
+               "name": "butterfly-bar",
+               "title": "BUTTERFLY BAR",
+               "sliderImageUrls": [
                   "https://s3-ap-southeast-1.amazonaws.com/ew-files/apps/591a8e4d5c99536df7e4f609/2017/04/intercontinental-kunming-4090929879-2x1.jpg"
                ],
-               "categories":[
+               "categories": [
                   "591ea700e8a5dd18aca5eb7a",
                   "591ea701e8a5dd18aca5ebcd"
                ],
-               "location":"591ea6fee8a5dd18aca5eb48",
-               "description":"BUTTERFLY BAR Open : 12:00 AM-11:59 PM The Butterfly Bar echoes the \"Eternally Beautiful Butterfly\" theme of the hotel. The inviting venue serves to allow guests to be In The Know about local culture by offering them a wider variety of perspectives, allowing them to truly experience the charm of Yunnan.",
-               "position":{
-                  "type":"Point",
-                  "coordinates":[
+               "location": "591ea6fee8a5dd18aca5eb48",
+               "description": "BUTTERFLY BAR Open : 12:00 AM-11:59 PM The Butterfly Bar echoes the \"Eternally Beautiful Butterfly\" theme of the hotel. The inviting venue serves to allow guests to be In The Know about local culture by offering them a wider variety of perspectives, allowing them to truly experience the charm of Yunnan.",
+               "position": {
+                  "type": "Point",
+                  "coordinates": [
                      102.65643,
                      24.977663
                   ]
                }
             },
-            "accepted":true
+            "accepted": true
          },
          {
-            "_id":"59c0bae010bb2843cd5feba3",
-            "experience":{
-               "_id":"591ef6451efa6db89717a6bf",
-               "name":"the-market",
-               "title":"THE MARKET",
-               "sliderImageUrls":[
+            "_id": "59c0bae010bb2843cd5feba3",
+            "experience": {
+               "_id": "591ef6451efa6db89717a6bf",
+               "name": "the-market",
+               "title": "THE MARKET",
+               "sliderImageUrls": [
                   "https://s3-ap-southeast-1.amazonaws.com/ew-files/apps/591a8e4d5c99536df7e4f609/2017/04/intercontinental-kunming-4339876311-2x1.jpg"
                ],
-               "categories":[
+               "categories": [
                   "591ea700e8a5dd18aca5eb7a"
                ],
-               "location":"591ea6fee8a5dd18aca5eb48",
-               "description":"THE MARKET Open : 12:00 AM-11:59 PM The name, \"The Market\" is derived from a traditional custom of the Hani Tribe, a Yunnan ethic minority group that dates back to the third century AD. Here a variety of sumptuous Mediterranean and Asian dishes are on offer, as well as a number of Yunnan delicacies, all prepared in open kitchens for guests to enjoy.",
-               "position":{
-                  "type":"Point",
-                  "coordinates":[
+               "location": "591ea6fee8a5dd18aca5eb48",
+               "description": "THE MARKET Open : 12:00 AM-11:59 PM The name, \"The Market\" is derived from a traditional custom of the Hani Tribe, a Yunnan ethic minority group that dates back to the third century AD. Here a variety of sumptuous Mediterranean and Asian dishes are on offer, as well as a number of Yunnan delicacies, all prepared in open kitchens for guests to enjoy.",
+               "position": {
+                  "type": "Point",
+                  "coordinates": [
                      102.656423,
                      24.977663
                   ]
                }
             },
-            "accepted":true
+            "accepted": true
          },
          {
-            "_id":"59c0bae010bb2843cd5feba2",
-            "experience":{
-               "_id":"591ef6451efa6db89717a6c2",
-               "name":"chambord",
-               "title":"CHAMBORD",
-               "sliderImageUrls":[
+            "_id": "59c0bae010bb2843cd5feba2",
+            "experience": {
+               "_id": "591ef6451efa6db89717a6c2",
+               "name": "chambord",
+               "title": "CHAMBORD",
+               "sliderImageUrls": [
                   "https://s3-ap-southeast-1.amazonaws.com/ew-files/apps/591a8e4d5c99536df7e4f609/2017/04/6165586_193_z.jpg"
                ],
-               "categories":[
+               "categories": [
                   "591ea700e8a5dd18aca5eb7a"
                ],
-               "location":"591ea6fee8a5dd18aca5eb48",
-               "description":"CHAMBORD Chambord is a noble and elegant restaurant named after one of the grandest chateaux in France. Top chefs select from the finest ingredients in the world to prepare a range of authentic French cuisine. Chambord is available for use as a multi functional banquet hall.",
-               "position":{
-                  "type":"Point",
-                  "coordinates":[
+               "location": "591ea6fee8a5dd18aca5eb48",
+               "description": "CHAMBORD Chambord is a noble and elegant restaurant named after one of the grandest chateaux in France. Top chefs select from the finest ingredients in the world to prepare a range of authentic French cuisine. Chambord is available for use as a multi functional banquet hall.",
+               "position": {
+                  "type": "Point",
+                  "coordinates": [
                      102.656424,
                      24.977656
                   ]
                }
             },
-            "accepted":true
+            "accepted": true
          },
          {
-            "_id":"59c0bae010bb2843cd5feba1",
-            "experience":{
-               "_id":"591ef6451efa6db89717a6c1",
-               "name":"shang-tao-chinese-restaurant",
-               "title":"SHANG TAO CHINESE RESTAURANT",
-               "sliderImageUrls":[
+            "_id": "59c0bae010bb2843cd5feba1",
+            "experience": {
+               "_id": "591ef6451efa6db89717a6c1",
+               "name": "shang-tao-chinese-restaurant",
+               "title": "SHANG TAO CHINESE RESTAURANT",
+               "sliderImageUrls": [
                   "https://s3-ap-southeast-1.amazonaws.com/ew-files/apps/591a8e4d5c99536df7e4f609/2017/04/intercontinental-kunming-4460920814-2x1.jpg"
                ],
-               "categories":[
+               "categories": [
                   "591ea700e8a5dd18aca5eb7a"
                ],
-               "location":"591ea6fee8a5dd18aca5eb48",
-               "description":"SHANG TAO CHINESE RESTAURANT 11:00 AM-9:30 PM Shang Tao is the verse from the Kunming \"Daguan Pavilion Poen\" that depicts gourmet food. The names of the seven private rooms of this namesake restaurant cleverly borrow from phrases found in ancient poems praising butterflies. Here, you will enjoy feasts of delicious Cantonese dishes and authentic Yunnan flavors.",
-               "position":{
-                  "type":"Point",
-                  "coordinates":[
+               "location": "591ea6fee8a5dd18aca5eb48",
+               "description": "SHANG TAO CHINESE RESTAURANT 11:00 AM-9:30 PM Shang Tao is the verse from the Kunming \"Daguan Pavilion Poen\" that depicts gourmet food. The names of the seven private rooms of this namesake restaurant cleverly borrow from phrases found in ancient poems praising butterflies. Here, you will enjoy feasts of delicious Cantonese dishes and authentic Yunnan flavors.",
+               "position": {
+                  "type": "Point",
+                  "coordinates": [
                      102.656427,
                      24.977663
                   ]
                }
             },
-            "accepted":true
+            "accepted": true
          }
       ],
-      "level":0,
-      "accentColor":"#89C966",
-      "cityId":"6824964",
-      "updatedAt":"2018-09-20T04:35:19.529Z",
-      "position":{
-         "type":"Point",
-         "coordinates":[
+      "level": 0,
+      "accentColor": "#89C966",
+      "cityId": "6824964",
+      "updatedAt": "2018-09-20T04:35:19.529Z",
+      "position": {
+         "type": "Point",
+         "coordinates": [
             102.656424,
             24.977656
          ]
       },
-      "contactText":"<p>No. 5 Yijing Road, Xishan District : Kunming , YN ,650228, China (People's Republic) TEL : +86-871-63188888 Email : Reservation@ickunming.com</p>",
-      "footerText":"<p>A lakeside retreat featuring exotic flora and fauna, we offer stunning views of the Dianchi area, quiet luxury and a world-class cuisine sure to make your visit to Kunming a welcome escape. We are 40 km from Kunming Airport and close to attractions such as Dianchi and Xishan.</p>",
-      "primaryCategory":"591ea701e8a5dd18aca5ebc4",
-      "imagesBoardSettings":{
-         "autoManage":true
+      "contactText": "<p>No. 5 Yijing Road, Xishan District : Kunming , YN ,650228, China (People's Republic) TEL : +86-871-63188888 Email : Reservation@ickunming.com</p>",
+      "footerText": "<p>A lakeside retreat featuring exotic flora and fauna, we offer stunning views of the Dianchi area, quiet luxury and a world-class cuisine sure to make your visit to Kunming a welcome escape. We are 40 km from Kunming Airport and close to attractions such as Dianchi and Xishan.</p>",
+      "primaryCategory": "591ea701e8a5dd18aca5ebc4",
+      "imagesBoardSettings": {
+         "autoManage": true
       },
-      "owner":null,
-      "platforms":[
+      "owner": null,
+      "featuredOn": [{
+         "_id": "featured:00001",
+         "title": "Mekong Moments",
+         "platformUrl": "https://www.mekongmoments.com",
+         "logoUrl": "https://www.mekongmoments.com/assets/img/logo.svg"
+      }],
+      "platforms": [
          "591a8e4d5c99536df7e4f609"
       ],
-      "type":"experience",
-      "relationships":{
-         "showing":[
+      "type": "experience",
+      "relationships": {
+         "showing": [
 
          ],
-         "mention":[
+         "mention": [
 
          ]
       }
    },
-   "type":"experience"
+   "type": "experience"
 }

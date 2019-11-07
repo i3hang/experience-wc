@@ -65,7 +65,7 @@ export class experienceWc extends HTMLElement {
    */
   set data(data) {
     this._data = data;
-
+    
     // Assign ให้กับ Property "data" ของแต่ละ elements
     if (this._data) {
       this.elements.header.images = this._data.sliderImageUrls;
@@ -83,20 +83,20 @@ export class experienceWc extends HTMLElement {
       };
       this.elements.contact.socialIdentifiers = this._data.socialIdentifiers;
 
-      this.elements.nearby.experiences = this._data.experiences;
-      this.elements.nearby.nearbyExperiences = this._data.linkedExperiences;
+      this.elements.affiliations.affiliations = this._data.affiliations;
 
-      if (!this._data.offers) {
-        this.elements.offers.offersData = this._data.offers;
-      } else {
-        this.elements.offers.remove();
-      }
+      this.elements.nearby.nearByHotels = this._data.nearByHotels;
+      this.elements.nearby.nearByExperiences = this._data.nearByExperiences;
 
-      if (!this._data.features) {
-        this.elements.featured.features = this._data.features;
+      this.elements.offers.offers = this._data.offers;
+      this.elements.offers.stories = this._data.stories;
+      
+      if (this._data.featuredOn) {
+        this.elements.featured.featuredOn = this._data.featuredOn;
       } else {
         this.elements.featured.remove();
       }
+      
 
     }
   }
@@ -114,7 +114,7 @@ export class experienceWc extends HTMLElement {
       <exp-header></exp-header>
       <exp-navbar></exp-navbar>
       <exp-images-board></exp-images-board>
-      <exp-banner></exp-banner>
+      <exp-banner hide="hide"></exp-banner>
       <exp-traval></exp-traval>
       <exp-affiliations></exp-affiliations>
       <exp-nearby></exp-nearby>

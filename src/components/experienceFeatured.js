@@ -14,14 +14,14 @@ export class experienceFeatured extends HTMLElement {
     
   }
 
-  set features(features) {
-    this._features = features;
-    if (features.length > 0) {
-      this.featuresList.innerHTML = features.map(f => `
+  set featuredOn(data) {
+    this._features = data;
+    if (data.length > 0) {
+      this.featuresList.innerHTML = data.map(features => `
                                       <div class="list-featured">
                                         <div class="box-featured">
-                                          <a href="#">
-                                            <img src="${f}" alt="img-featured" style="width: 100%">
+                                          <a href="${features.platformUrl}">
+                                            <img src="${features.logoUrl}" alt="img-featured" style="width: 100%">
                                           </a>
                                         </div>
                                       </div>
@@ -44,7 +44,7 @@ export class experienceFeatured extends HTMLElement {
             <div class="row-featured"></div>
           </div>
 
-          <exp-banner banner="${banner}"></exp-banner>
+          <exp-banner banner="${banner}" hide="hide"></exp-banner>
         </div>
       </div>
     `;

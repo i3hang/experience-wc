@@ -10,8 +10,8 @@ export class experienceOffers extends HTMLElement {
   constructor() {
     super();
     this.template();
-    this.activeSlide(slideIndex);
-    this.plusSlides();
+    this.offersData = this.querySelector('.offersSlide');
+    this.storiesData = this.querySelector('.row-stories');
   }
 
   get banner() {
@@ -20,6 +20,41 @@ export class experienceOffers extends HTMLElement {
 
   get link() {
     return this.getAttribute('link') || '#';
+  }
+
+  set offers(data) {
+    this._offers = data;
+    if (data) {
+      this.offersData.innerHTML = data.map(offers => `
+        <li class="mySlides fade">
+          <img src="${offers.thumbnailUrl}" alt="slide-01">
+        </li>
+      `).join('');
+      this.activeSlide(slideIndex);
+      this.plusSlides();
+    } else {
+      this.offersData.remove();
+    }
+  }
+
+  set stories(data) {
+    this._stories = data;
+    if (data) {
+      this.storiesData.innerHTML = data.map(stories => `
+        <div class="list-stories">
+          <div class="box-stories">
+            <div class="detail-stories">
+              <div class="img-stories" style="background-image:url('${stories.thumbnailUrl}')">
+                <div class="img-blur" style="background-image:url('${stories.thumbnailUrl}')"></div>
+                <div class="text-stories">
+                  <p class="name">${stories.title} <br><span>by Duen Punyashthiti</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
   }
 
   template() {
@@ -37,13 +72,7 @@ export class experienceOffers extends HTMLElement {
           <p>
 
           <div class="slide">
-            <ul>
-              <li class="mySlides fade">
-                <img src="${slider01}" alt="slide-01">
-              </li>
-              <li class="mySlides fade">
-                <img src="${slider01}" alt="slide-01">
-              </li>
+            <ul class="offersSlide">
             </ul>
 
             <div class="next-previous">
@@ -136,32 +165,7 @@ export class experienceOffers extends HTMLElement {
           <p>
 
           <div class="stories">
-            <div class="row-stories">
-              <div class="list-stories">
-                <div class="box-stories">
-                  <div class="detail-stories">
-                    <div class="img-stories" style="background-image:url('${stories01}')">
-                      <div class="img-blur" style="background-image:url('${stories01}')"></div>
-                      <div class="text-stories">
-                        <p class="name">The Linden Story <br><span>by Duen Punyashthiti</span></p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="list-stories">
-                <div class="box-stories">
-                  <div class="detail-stories">
-                    <div class="img-stories" style="background-image:url('${stories02}')">
-                      <div class="img-blur" style="background-image:url('${stories02}')"></div>
-                      <div class="text-stories">
-                        <p class="name">The Linden Story <br><span>by Duen Punyashthiti</span></p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <div class="row-stories"></div>
 
             <div class="div-btn">
               <a href="#" class="btn-see-all">See all</a>
