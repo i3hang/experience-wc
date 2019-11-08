@@ -90,6 +90,7 @@ export class experienceWc extends HTMLElement {
 
       this.elements.offers.offers = this._data.offers;
       this.elements.offers.stories = this._data.stories;
+      this.elements.offers.trips = this._data.trips;
       
       if (this._data.featuredOn) {
         this.elements.featured.featuredOn = this._data.featuredOn;

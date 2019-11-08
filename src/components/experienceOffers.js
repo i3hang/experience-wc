@@ -12,6 +12,7 @@ export class experienceOffers extends HTMLElement {
     this.template();
     this.offersData = this.querySelector('.offersSlide');
     this.storiesData = this.querySelector('.row-stories');
+    this.tripsData = this.querySelector('.row-experience');
   }
 
   get banner() {
@@ -50,6 +51,22 @@ export class experienceOffers extends HTMLElement {
                   <p class="name">${stories.title} <br><span>by Duen Punyashthiti</span></p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+  }
+
+  set trips(data) {
+    this._trips = data;
+    if (data) {
+      this.tripsData.innerHTML = data.map(trips => `
+        <div class="list-ways">
+          <div class="box-ways">
+            <div class="detail-ways">
+              <div class="img-ways" style="background-image:url('${trips.thumbnailUrl}')"></div>
+              <p class="name-ways">${trips.title}</p>
             </div>
           </div>
         </div>
@@ -119,32 +136,7 @@ export class experienceOffers extends HTMLElement {
           <p>
 
           <div class="experience">
-            <div class="row-experience">
-              <div class="list-ways">
-                <div class="box-ways">
-                  <div class="detail-ways">
-                    <div class="img-ways" style="background-image:url('${ways01}')"></div>
-                    <p class="name-ways">3-Day Dali, Shaxi & Lijiang Tour</p>
-                  </div>
-                </div>
-              </div>
-              <div class="list-ways">
-                <div class="box-ways">
-                  <div class="detail-ways">
-                    <div class="img-ways" style="background-image:url('${ways02}')"></div>
-                    <p class="name-ways">Two-day Dali & Lijiang tour</p>
-                  </div>
-                </div>
-              </div>
-              <div class="list-ways">
-                <div class="box-ways">
-                  <div class="detail-ways">
-                    <div class="img-ways" style="background-image:url('${ways02}')"></div>
-                    <p class="name-ways">Two-day Dali & Lijiang tour</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <div class="row-experience"></div>
           </div>
 
           <p class="title">
